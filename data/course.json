@@ -1,0 +1,356 @@
+{
+  "version": 1,
+  "title": "IELTS Academic Writing Course",
+  "units": [
+    {
+      "id": "start",
+      "title": "Start here",
+      "summary": "Learn what the paper asks and choose a useful route through the course.",
+      "accent": "gold",
+      "lessons": [
+        {
+          "id": "st-format",
+          "title": "Know the Academic Writing paper",
+          "area": "The test",
+          "minutes": 8,
+          "objective": "Know what each writing task requires and how to use the 60 minutes.",
+          "visual":{"layout":"split","title":"Plan the hour around the two tasks","items":[{"label":"Task 1 · about 20 minutes","detail":"Select and summarize the main information in a visual. Write at least 150 words."},{"label":"Task 2 · about 40 minutes","detail":"Answer the essay prompt with a developed response. Write at least 250 words."}]},
+          "sections": [
+            {"heading":"Two tasks, one hour","body":"Academic Writing has two different jobs. In Task 1, describe and compare the important information in a visual such as a chart, table, map or process. Aim for at least 150 words and about 20 minutes. In Task 2, answer an essay question with a developed response of at least 250 words. Allow about 40 minutes."},
+            {"heading":"Give Task 2 enough time","body":"Task 2 contributes twice as much as Task 1 to the Writing score. A useful starting plan is 20 minutes for Task 1 and 40 for Task 2, including a few minutes to plan and check each answer. This is a practice target, not a rule that prevents you adjusting your timing."},
+            {"heading":"Know which test you are preparing for","body":"This course covers IELTS Academic Writing. Academic Task 1 asks you to report visual information; General Training Task 1 asks for a letter. The two versions share Task 2 but have different Task 1 requirements."
+            }
+          ],
+          "example":{"label":"A one-hour plan","content":"Task 1: 3 minutes to read and select features, 14 minutes to write, 3 minutes to check. Task 2: 5 minutes to unpack and plan, 30 minutes to write, 5 minutes to check."},
+          "check":{"question":"Which statement about the Academic Writing tasks is accurate?","options":[{"text":"Task 1 is a visual summary; Task 2 is an essay and carries twice the weight.","correct":true,"feedback":"Correct. Task 1 reports a visual, while Task 2 is an essay and has twice the weighting."},{"text":"Both tasks are essays and each contributes equally.","correct":false,"feedback":"The task formats differ, and Task 2 carries more weight."},{"text":"Task 1 is a letter and Task 2 is a chart summary.","correct":false,"feedback":"That reverses the Academic Writing task types; a letter is used in General Training Task 1."}]},
+          "challenge":{"guided":"Write one sentence explaining the difference between the two tasks, then assign 20 and 40 minutes to them.","core":"Plan how you would divide 60 minutes, including time to read, write and check.","stretch":"You tend to spend 30 minutes on Task 1. Rework your schedule to protect enough time for the more heavily weighted essay."},
+          "practiceIds":[]
+        },
+        {
+          "id":"st-criteria",
+          "title":"Understand the four criteria",
+          "area":"Assessment",
+          "minutes":10,
+          "objective":"Use the four IELTS criteria as a practical guide while planning and reviewing.",
+          "visual":{"layout":"grid","title":"Four ways to review one response","items":[{"label":"Task Achievement / Response","detail":"Did I answer the full task?"},{"label":"Coherence and Cohesion","detail":"Can a reader follow the progression?"},{"label":"Lexical Resource","detail":"Are my words accurate and precise?"},{"label":"Grammar Range and Accuracy","detail":"Are my sentences varied and controlled?"}]},
+          "sections":[
+            {"heading":"Four lenses on one response","body":"Task Achievement (Task 1) or Task Response (Task 2) asks whether you fulfilled the task: selected key information or answered every part with a clear position. Coherence and Cohesion looks at the order of ideas, paragraphing and links. Lexical Resource concerns the range and precision of words. Grammatical Range and Accuracy considers sentence variety and correctness."},
+            {"heading":"Let the task decide your choices","body":"The criteria work together. A sophisticated word does not compensate for an inaccurate comparison; a correct essay structure does not answer a missing part of the question. Start with meaning and coverage, then make language choices that express your ideas clearly."},
+            {"heading":"Turn criteria into questions","body":"Before submitting, ask: Did I answer the full task? Can a reader follow the progression? Are my words precise for this topic? Are my sentence forms clear and controlled? These questions are more useful than guessing a band score from a checklist."}
+          ],
+          "example":{"label":"From criterion to action","content":"Task Response: the prompt asks for both views and your opinion. Action: plan a view paragraph, an opposing-view paragraph, and a clear judgement. Coherence: give each paragraph one job and use a topic sentence to signal it."},
+          "check":{"question":"Which criterion asks whether a Task 2 response answers every part of the prompt?","options":[{"text":"Task Response","correct":true,"feedback":"Correct. Task Response evaluates how fully and clearly the essay addresses the question."},{"text":"Lexical Resource","correct":false,"feedback":"Lexical Resource is about vocabulary range and precision."},{"text":"Coherence and Cohesion","correct":false,"feedback":"Coherence and Cohesion concerns logical organization and linking."}]},
+          "challenge":{"guided":"Match these actions to a criterion: cover each prompt part; use precise topic words; order paragraphs logically; check verb forms.","core":"Choose one recent piece of writing and note one specific improvement for each of the four criteria.","stretch":"Take a paragraph with fluent vocabulary but an unclear claim. Explain why vocabulary alone cannot make it effective."},
+          "practiceIds":["t2-wealth"]
+        },
+        {
+          "id":"st-starting-point",
+          "title":"Choose a starting point that fits you",
+          "area":"Your route",
+          "minutes":7,
+          "objective":"Select a starting route from your experience and goals, without treating it as a score.",
+          "sections":[
+            {"heading":"Use experience, not a guessed band","body":"A useful course route describes what you have practised. Choose New to IELTS writing if the format and basic skills are unfamiliar. Choose Building my skills if you understand the tasks but want to improve planning, selection or language. Choose Ready to practise under time if you can already write both task types and want to build consistency under exam conditions."},
+            {"heading":"Keep the route adjustable","body":"Your starting point is a recommendation, not a diagnosis. Pick a focus—Task 1, Task 2, language, or all areas—and a challenge level. Guided breaks work into prompts, Core asks for independent application, and Stretch adds complexity. You can change these choices at any time, and no lesson is locked."},
+            {"heading":"Use a small baseline","body":"To notice progress, keep a short piece you have written or complete one practice task before and after a unit. Compare specific features: task coverage, idea order, word choice and sentence control. A self-review can show what to practise; it cannot provide an official IELTS band."}
+          ],
+          "example":{"label":"A practical choice","content":"You have written essays in English but have never described a graph. Choose Building my skills, set focus to Task 1, and start with reading visuals. If the explanation feels easy, switch from Guided to Core or Stretch."},
+          "check":{"question":"What should your course route represent?","options":[{"text":"Your current experience and the type of practice you want next.","correct":true,"feedback":"Correct. Routes help select a useful next step; they are not IELTS level estimates."},{"text":"A permanent level that decides which lessons you may open.","correct":false,"feedback":"Routes stay adjustable, and all lessons remain available."},{"text":"A guaranteed prediction of your IELTS Writing band.","correct":false,"feedback":"The course does not grade writing or predict a band."}]},
+          "challenge":{"guided":"Choose one route and one skill you most want to practise this week.","core":"Set a route, focus and challenge level. Write down why each fits your current experience.","stretch":"Choose a short baseline task, name two observable features you will compare later, and explain why a band estimate would not be a reliable substitute."},
+          "practiceIds":[]
+        }
+      ]
+    },
+    {
+      "id":"task1",
+      "title":"Task 1: Describe visuals",
+      "summary":"Read the data, select the story, then report it accurately and clearly.",
+      "accent":"teal",
+      "lessons":[
+        {
+          "id":"t1-read-visuals","title":"Read charts and tables accurately","area":"Visual literacy","minutes":12,"objective":"Identify what a visual measures, compares and leaves unstated.",
+          "visualExerciseIds":["t1-art"],
+          "sections":[
+            {"heading":"Read the frame before the values","body":"Check the title, question wording, units, categories, time span and legend. Find out whether values are counts, percentages, money, distance or another measure. Notice whether the data are snapshots at selected dates or a process in stages. A correct description depends on this frame as much as on the numbers."},
+            {"heading":"Separate observation from explanation","body":"A visual reports information; it usually does not tell you why it changed. Describe the pattern that is visible without inventing a cause. If a line rises from 20 to 60, report that increase. Do not claim that a policy, invention or event caused it unless the prompt supplies that explanation."},
+            {"heading":"Check the scale","body":"Look at axis intervals and units. A line can appear steep because the scale is narrow; a value may be a percentage, not a percentage-point change. For example, a rise from 20% to 30% is 10 percentage points, or a 50% increase relative to the starting value."}
+          ],
+          "example":{"label":"Read before writing","content":"A line chart titled “Share of households with internet access, 2000–2020” uses percentages. One series moves from 20% to 80%. Safe report: “Access rose by 60 percentage points.” The chart does not explain why."},
+          "check":{"question":"What should you check before interpreting a chart’s values?","options":[{"text":"The title, units, categories, time span and scale.","correct":true,"feedback":"Correct. These details define what the values mean and how they can be compared."},{"text":"The cause of every change shown.","correct":false,"feedback":"A visual often gives no causes; avoid inventing them."},{"text":"Only the highest value.","correct":false,"feedback":"The peak matters, but the full visual frame and patterns matter too."}]},
+          "challenge":{"guided":"Use a practice chart and write down its title, unit, categories, dates and highest value.","core":"Describe two observable patterns in a chart without explaining why they happened.","stretch":"Find a chart with a truncated axis. Explain how its scale could exaggerate the visual size of a change."},
+          "practiceIds":["t1-art","t1-noise","t1-sugar","x1-gallery"]
+        },
+        {
+          "id":"t1-select-features","title":"Choose the features worth writing about","area":"Feature selection","minutes":12,"objective":"Select a small set of major patterns instead of listing every value.",
+          "visualExerciseIds":["x1-gallery"],
+          "sections":[
+            {"heading":"Look for the shape of the data","body":"Scan for the highest and lowest values, the largest rise or fall, a reversal, a stable period, a crossover, a clear gap, or a notable exception. Select the features that explain the visual as a whole. You usually do not need to mention every category or year."},
+            {"heading":"Test each detail for importance","body":"Ask what a reader would miss if a detail were removed. A single exact figure is useful when it supports a larger comparison or marks a turning point. Several small fluctuations may be summarized as “remained broadly stable.” A memorable but minor value should not displace the central pattern."},
+            {"heading":"Create a short evidence set","body":"Before drafting, list two or three main features and a few figures that support them. If there are many series, group related ones. This selection gives the response a clear focus and makes the overview easier to write."}
+          ],
+          "example":{"label":"Select, then support","content":"Two series move in opposite directions and cross in 2010. Main features: one falls overall; the other rises; the ranking reverses. Evidence: compare their starting values and quote the crossing or endpoint. The intervening annual values are not all needed."},
+          "check":{"question":"Which detail is most likely to deserve space in Task 1?","options":[{"text":"A major crossover that changes which category is highest.","correct":true,"feedback":"Correct. A crossover changes the comparison and can summarize the visual’s main story."},{"text":"Every small year-to-year fluctuation, whether meaningful or not.","correct":false,"feedback":"A full list obscures important patterns and uses space poorly."},{"text":"A cause that the chart does not mention.","correct":false,"feedback":"Do not add unsupported explanations."}]},
+          "challenge":{"guided":"Mark the highest, lowest and largest change on one exercise chart.","core":"Write a three-item feature list for a chart, including the broad pattern and two useful comparisons.","stretch":"Choose between two possible details for a 150-word report. Defend the more informative detail in one sentence."},
+          "practiceIds":["t1-art","t1-sugar","x1-gallery","x2-complaints"]
+        },
+        {
+          "id":"t1-overview","title":"Write a clear overview","area":"Overview","minutes":10,"objective":"Summarize the visual’s main message without turning the overview into a number list.",
+          "visualExerciseIds":["t1-sugar"],
+          "sections":[
+            {"heading":"Give the reader the big picture","body":"An overview states the main trends or contrasts across the visual. It commonly follows the introduction and does not need to repeat exact values. Select the strongest two or three observations from your feature list. For a static chart, describe the most important high/low patterns; for a time series, describe the overall direction and any standout change."},
+            {"heading":"Be specific, not vague","body":"“There were some changes” tells the reader almost nothing. Name the categories or groups and the direction or comparison. Do not make unsupported claims such as “all categories increased” if one remained stable or fell."},
+            {"heading":"Separate message from evidence","body":"Use the overview for the main message and body paragraphs for figures that demonstrate it. That separation keeps the response concise and makes the hierarchy of information clear."}
+          ],
+          "example":{"label":"From observation to overview","content":"Observation: all three age groups increased, while the oldest group remained the smallest and rose fastest. Overview: “Internet use increased across all age groups. The youngest group remained the most connected, whereas the oldest group recorded the sharpest rise.”"},
+          "check":{"question":"What is the main job of a Task 1 overview?","options":[{"text":"Summarize the most important patterns across the visual.","correct":true,"feedback":"Correct. The overview gives the overall message; selected numbers belong in supporting detail."},{"text":"List every figure in the visual.","correct":false,"feedback":"A full data list is too detailed and does not show the overall message."},{"text":"Explain the causes of all changes.","correct":false,"feedback":"Task 1 describes the information; causes are usually not supplied."}]},
+          "challenge":{"guided":"Complete the frame: “Overall, ___ increased, while ___ remained the lowest.” Check it against every series.","core":"Write a two-sentence overview for a practice chart. Include the main direction and one important contrast.","stretch":"Write two competing overviews for a complex visual; choose the one that captures more of the whole picture with fewer words."},
+          "practiceIds":["t1-art","t1-noise","t1-sugar","t1-glass-process","t1-lakeside-map"]
+        },
+        {
+          "id":"t1-group-compare","title":"Group information and make comparisons","area":"Organization","minutes":12,"objective":"Organize details by meaningful patterns and express direct comparisons.",
+          "visualExerciseIds":["t1-noise"],
+          "sections":[
+            {"heading":"Paragraph by pattern","body":"After your introduction and overview, group related details into one or two body paragraphs. You might group similar trends, contrasting categories, high and low values, or early and late stages. The best grouping depends on the visual, not on a fixed paragraph template."},
+            {"heading":"Make relationships explicit","body":"A list of separate facts forces the reader to do the comparison. Use comparative language to show which category was higher, how a gap changed, or when one series overtook another. Verify every comparison against the correct dates and units."},
+            {"heading":"Use reference clearly","body":"Name categories often enough that pronouns and labels stay clear. A paragraph can move from a main pattern to supporting values, then contrast it with a second group. Avoid repeating the chart title in every sentence."}
+          ],
+          "example":{"label":"A direct comparison","content":"List: “A was 20 in 2000. B was 35 in 2000.” Comparison: “In 2000, B stood at 35, 15 units above A.” The second version makes the relationship visible."},
+          "check":{"question":"Which sentence makes the relationship between two figures clearest?","options":[{"text":"In 2000, B stood at 35, 15 units above A.","correct":true,"feedback":"Correct. It names both categories and states the size of their gap."},{"text":"A stood at 20. B stood at 35.","correct":false,"feedback":"Both values are present, but the reader must calculate and infer the comparison."},{"text":"B was better than A.","correct":false,"feedback":"“Better” adds a judgement that the visual may not support."}]},
+          "challenge":{"guided":"Sort six chart values into two groups that share a trend or contrast.","core":"Write a paragraph comparing two categories at the start and end of a period.","stretch":"Organize a chart with four series into two body paragraphs and justify your grouping principle."},
+          "practiceIds":["t1-art","t1-noise","x1-gallery","x2-complaints"]
+        },
+        {
+          "id":"t1-accurate-details","title":"Report numbers and changes precisely","area":"Accuracy","minutes":11,"objective":"Choose accurate figures, units, tense and language for change.",
+          "visualExerciseIds":["x2-complaints"],
+          "sections":[
+            {"heading":"Keep the math honest","body":"Report units with figures when needed, and distinguish totals from percentages. A change from 40 to 60 is an increase of 20 units; it is a 50% increase relative to 40. A change from 40% to 60% is 20 percentage points. Do not round so aggressively that categories appear equal when they are not."},
+            {"heading":"Choose verbs that fit the pattern","body":"Use rise, grow or increase for upward movement; fall, decline or decrease for downward movement; and remain stable or fluctuate when the evidence fits. “By” gives the size of a change (“rose by 10”), while “to” gives the endpoint (“rose to 60”)."},
+            {"heading":"Match tense and certainty","body":"Past dates usually take past tense. A process diagram often describes stages in the present passive. A chart shows what its data say; hedge approximations with “about” or “approximately” only when the values are not exact. Check numbers copied into the draft against the original."}
+          ],
+          "example":{"label":"By versus to","content":"Values move from 30 to 45 thousand. “The figure rose by 15,000 to 45,000” reports both the change and endpoint. If the scale shows exact values, do not call them “roughly” just for variety."},
+          "check":{"question":"A value rises from 40% to 60%. Which description is mathematically accurate?","options":[{"text":"It rises by 20 percentage points.","correct":true,"feedback":"Correct. The difference between the two percentages is 20 percentage points."},{"text":"It rises by 20 percent.","correct":false,"feedback":"The relative increase is 50%; the absolute difference is 20 percentage points."},{"text":"It rises to 20%. ","correct":false,"feedback":"The ending value is 60%, not 20%."}]},
+          "challenge":{"guided":"For three pairs of values, state the start, endpoint, direction and unit.","core":"Write four sentences using “by,” “to,” “remained” and “compared with” accurately.","stretch":"Explain the difference between a percentage increase and a percentage-point change using one example."},
+          "practiceIds":["t1-noise","t1-sugar","x1-gallery","x2-complaints"]
+        },
+        {
+          "id":"t1-maps-processes","title":"Describe maps, processes and combined visuals","area":"Other visuals","minutes":14,"objective":"Adapt feature selection and organization to non-chart visuals.",
+          "visualExerciseIds":["t1-glass-process","t1-lakeside-map"],
+          "sections":[
+            {"heading":"Maps: compare place and time","body":"For maps, identify the location, dates and major changes. Group developments by area or by type: facilities added, land use changed, or features removed. Use north/south or named landmarks only when the map supports them. Do not invent a purpose for a building or development."},
+            {"heading":"Processes: show sequence and stages","body":"For a process, locate the start and end, count the main stages, and notice whether it is linear or cyclical. Put stages in order and use clear sequence words. Many process descriptions use present simple and passive forms: “The bottles are sorted, then crushed.” Do not add a cause or a step not shown."},
+            {"heading":"Combined visuals: find the relationship","body":"When two visuals appear together, describe each and explain the connection that is visible. An overview should capture the main story across both. Organize body paragraphs around comparable categories or around the relationship between the visuals, and use figures selectively."}
+          ],
+          "example":{"label":"Map change","content":"“The western car park was replaced by a garden, while the café and lake in the eastern half remained in place.” This reports location and change without speculating about why the redesign happened."},
+          "check":{"question":"What is a reliable strategy for describing a process diagram?","options":[{"text":"Identify its start and end, then describe the shown stages in order.","correct":true,"feedback":"Correct. A process response should preserve sequence and avoid adding unseen steps."},{"text":"Describe only the final product.","correct":false,"feedback":"The stages are the information the diagram presents."},{"text":"Explain why each stage was chosen.","correct":false,"feedback":"Unless supplied, reasons are not shown and should not be invented."}]},
+          "challenge":{"guided":"Put the stages in one practice process into order and label the starting and ending points.","core":"Write an overview and one body paragraph for a map or process exercise.","stretch":"For a two-visual task, write an overview that accurately captures the shared relationship without repeating both titles."},
+          "practiceIds":["t1-glass-process","t1-lakeside-map"]
+        }
+      ]
+    },
+    {
+      "id":"task2",
+      "title":"Task 2: Build an essay",
+      "summary":"Unpack every part of the prompt, build a clear position, and support it with reasons.",
+      "accent":"brick",
+      "lessons":[
+        {
+          "id":"t2-decode","title":"Unpack the question before you write","area":"Prompt analysis","minutes":10,"objective":"Identify the topic, instruction, scope and every part that needs an answer.",
+          "sections":[
+            {"heading":"Find the instruction","body":"Read the full prompt and underline its instruction: agree or disagree, discuss both views, consider advantages and disadvantages, explain causes and solutions, or answer two direct questions. The topic tells you what the essay is about; the instruction tells you what to do with that topic."},
+            {"heading":"Count the response jobs","body":"Some prompts contain more than one job. “Why is this happening, and what can be done?” requires causes and solutions. “Discuss both views and give your opinion” requires both views and your position. “Do the advantages outweigh the disadvantages?” requires a judgement about relative strength, not simply two lists."},
+            {"heading":"Limit your scope","body":"Use the wording to identify who, where and what the essay concerns. Do not drift into a broad essay about a neighboring topic. A quick plan with each prompt part as a heading makes omissions easier to spot."}
+          ],
+          "example":{"label":"Turn a prompt into jobs","content":"“Some employees work remotely several days a week. What are the advantages and disadvantages? Do the advantages outweigh the disadvantages?” Jobs: discuss benefits; discuss costs; compare their importance; make and maintain a clear overall judgement."},
+          "check":{"question":"A prompt asks, “Why is this happening, and what can be done?” What must the essay cover?","options":[{"text":"Causes and possible solutions.","correct":true,"feedback":"Correct. The two questions are separate response jobs, so address both."},{"text":"Only your opinion about whether it is good.","correct":false,"feedback":"The instruction asks for reasons and actions, not an opinion-only response."},{"text":"A general history of the topic.","correct":false,"feedback":"History is not requested unless it helps answer the stated causes or solutions."}]},
+          "challenge":{"guided":"Underline the instruction words in a prompt and rewrite them as a checklist.","core":"Analyze one Task 2 prompt and list every point your essay must answer.","stretch":"Compare an advantages/disadvantages prompt with an outweigh prompt. State how the extra judgement changes the plan."},
+          "practiceIds":["t2-wealth","t2-quiet","t2-sugar","t2-remote-work","t2-food-waste"]
+        },
+        {
+          "id":"t2-position-plan","title":"Choose a position and make a focused plan","area":"Planning","minutes":12,"objective":"Develop a clear answer and plan reasons that directly support it.",
+          "sections":[
+            {"heading":"Answer the question you were asked","body":"For opinion questions, choose a position you can explain. It may be fully or partly in favour, provided the reasoning is clear. For discussion or outweigh prompts, represent the alternatives fairly before making your judgement. A nuanced position is useful only if the reader can identify it."},
+            {"heading":"Plan reasons, not slogans","body":"Choose two main ideas and add a reason, consequence or realistic example to each. An idea such as “public parks are important” is too broad on its own. Specify a mechanism: free local space gives residents without gardens a regular place to exercise and meet."},
+            {"heading":"Check the plan against the prompt","body":"Label the parts of your plan with the prompt jobs. If a required job has no paragraph or supporting point, revise before writing. A compact plan is enough; long brainstorming can consume time without improving the argument."}
+          ],
+          "example":{"label":"From position to reason","content":"Position: food education should be the main response, with targeted price policies as support. Reason 1: practical meal-planning skills help households act daily. Reason 2: clear package information helps shoppers compare choices. Qualification: education alone cannot overcome every access barrier."},
+          "check":{"question":"What makes an essay plan useful under time pressure?","options":[{"text":"A clear position and a few relevant reasons linked to every prompt part.","correct":true,"feedback":"Correct. A focused plan guides coverage and development without taking too long."},{"text":"A long list of unrelated ideas to choose from while drafting.","correct":false,"feedback":"Too many unfiltered ideas increase delay and weaken focus."},{"text":"Memorized sentences written before seeing the prompt.","correct":false,"feedback":"Prepared language can fail to answer this specific question."}]},
+          "challenge":{"guided":"Choose a position and add one because-clause that explains why.","core":"Make a two-paragraph plan with a main claim and supporting example for each paragraph.","stretch":"Write a qualified position that acknowledges a real limitation while still answering the prompt decisively."},
+          "practiceIds":["t2-food-waste","t2-wealth","x3-culture"]
+        },
+        {
+          "id":"t2-structure","title":"Give each part of the essay a job","area":"Essay structure","minutes":11,"objective":"Use a clear introduction, focused body paragraphs and a purposeful conclusion.",
+          "visual":{"layout":"steps","title":"A clear route through the essay","items":[{"label":"Introduction","detail":"Frame the issue and answer the prompt."},{"label":"Body paragraphs","detail":"Develop one reason or required view at a time."},{"label":"Conclusion","detail":"Close with the judgement the essay supports."}]},
+          "sections":[
+            {"heading":"Build a simple progression","body":"A reliable structure is an introduction, two or three focused body paragraphs, and a conclusion. The introduction establishes the issue and answers the prompt with a position or clear scope. Each body paragraph develops one main reason or a required viewpoint. The conclusion restates the answer in light of the reasons already explained."},
+            {"heading":"Keep the introduction direct","body":"You may paraphrase the issue briefly, then state your answer. A long general opening, dictionary definition or unsupported claim does not add useful coverage. Avoid promising to discuss something without actually discussing it."},
+            {"heading":"Use the conclusion to close the argument","body":"Synthesize the main judgement in fresh but accurate words. Do not introduce a new major reason or reverse the position. The conclusion should confirm the answer, not repeat every sentence from the introduction."}
+          ],
+          "example":{"label":"A compact introduction","content":"Prompt: Should cities restrict private cars? Introduction: “Although cars remain useful for some journeys, city centres should limit routine private traffic because reliable public transport can move more people while reducing congestion.” It gives a position and two reasons to develop."},
+          "check":{"question":"What should the conclusion mainly do?","options":[{"text":"Bring the answer together without introducing a new main argument.","correct":true,"feedback":"Correct. A conclusion closes the response and reinforces its position."},{"text":"Add a new solution that the essay has not discussed.","correct":false,"feedback":"A new main idea cannot be properly supported at the end."},{"text":"Repeat the introduction word for word.","correct":false,"feedback":"The conclusion should synthesize the answer rather than duplicate it."}]},
+          "challenge":{"guided":"Label the role of each sentence in a sample introduction and conclusion.","core":"Write a two-sentence introduction and a one-sentence conclusion for a practice prompt.","stretch":"Reorder a mixed set of essay sentences into a clear progression and justify the paragraph jobs."},
+          "practiceIds":["t2-quiet","t2-remote-work"]
+        },
+        {
+          "id":"t2-develop-ideas","title":"Develop ideas with reasons and examples","area":"Paragraph development","minutes":12,"objective":"Turn a main idea into a reasoned paragraph that stays relevant to the question.",
+          "visual":{"layout":"steps","title":"Develop one point far enough","items":[{"label":"Claim","detail":"State the paragraph’s main reason."},{"label":"Explain","detail":"Show how or why the claim matters."},{"label":"Illustrate","detail":"Use a relevant, realistic example."}]},
+          "sections":[
+            {"heading":"Move beyond the claim","body":"A body paragraph needs more than a topic sentence. Explain why the claim is true, how it affects people or what consequence follows. One useful pattern is claim, explanation, illustration and link back to the prompt. You do not need to force all four steps into every paragraph."},
+            {"heading":"Use examples to clarify","body":"Examples can be ordinary and hypothetical if they are plausible and relevant. Their purpose is to show how a reason works, not to impress with obscure facts. Avoid invented precise statistics or claims that sound authoritative but have no support."},
+            {"heading":"Keep one main thread","body":"If a paragraph contains two unrelated claims, split it or remove the weaker one. Pronouns such as “this” should clearly refer to the idea they summarize. A focused paragraph is easier to follow and gives you room to explain the point."}
+          ],
+          "example":{"label":"Develop the reason","content":"Claim: “Flexible work can widen access to employment.” Explanation: “People with mobility or care responsibilities may be able to work without a daily commute.” Illustration: “For example, a parent could begin a shift after school drop-off.” The example makes the mechanism concrete."},
+          "check":{"question":"What is the best role for an example in a body paragraph?","options":[{"text":"Make a relevant reason clearer or more concrete.","correct":true,"feedback":"Correct. Examples support reasoning; they do not replace it."},{"text":"Add precise statistics even when you cannot verify them.","correct":false,"feedback":"Invented figures can damage credibility and are unnecessary."},{"text":"Introduce a new topic unrelated to the paragraph claim.","correct":false,"feedback":"An unrelated example breaks the paragraph’s line of reasoning."}]},
+          "challenge":{"guided":"Add a because-clause and a realistic example to one broad claim.","core":"Write a body paragraph with a clear claim, explanation and relevant example.","stretch":"Revise a paragraph containing three claims so each sentence supports one main argument."},
+          "practiceIds":["t2-food-waste","t2-remote-work","t2-wealth"]
+        },
+        {
+          "id":"t2-opinion","title":"Answer agree or disagree questions","area":"Opinion essays","minutes":11,"objective":"State a clear view and sustain it with relevant reasoning.",
+          "sections":[
+            {"heading":"Make your answer visible","body":"If asked to what extent you agree or disagree, state the extent in the introduction. You can agree, disagree, or take a qualified position. The body paragraphs should show why the position follows; the conclusion should remain consistent with it."},
+            {"heading":"Handle counterarguments carefully","body":"You may acknowledge a genuine limitation or opposing point. Explain why it does not overturn your main judgement, or specify the conditions under which it matters. A counterargument is optional; it should not make your position appear to change without explanation."},
+            {"heading":"Avoid two-sided drift","body":"Do not write one paragraph for each side and leave the reader to infer what you think. Even when considering costs and benefits, return to the exact instruction and give a direct judgement."}
+          ],
+          "example":{"label":"A qualified position","content":"“I largely support remote work because it can reduce commuting and improve access to jobs, although teams still need regular in-person time for collaborative tasks.” The qualification adds a boundary but keeps the overall view clear."},
+          "check":{"question":"What should an agree/disagree essay make clear?","options":[{"text":"The writer’s position and reasons that support it.","correct":true,"feedback":"Correct. The position should be identifiable throughout the response."},{"text":"Only a list of arguments on both sides.","correct":false,"feedback":"Listing views without a judgement may leave the prompt unanswered."},{"text":"A different position in every paragraph.","correct":false,"feedback":"A changing position confuses the reader unless it is deliberately qualified and explained."}]},
+          "challenge":{"guided":"Choose agree, disagree or partly agree, then write one direct position sentence.","core":"Plan two reasons that support your view and one relevant qualification.","stretch":"Draft a counterargument and rebuttal that add nuance without weakening your central position."},
+          "practiceIds":["t2-wealth","t2-quiet","t2-sugar"]
+        },
+        {
+          "id":"t2-discussion","title":"Discuss both views and give your opinion","area":"Discussion essays","minutes":12,"objective":"Represent both views fairly and make your own position explicit.",
+          "sections":[
+            {"heading":"Cover both viewpoints","body":"A discussion prompt explicitly asks you to consider both views. Explain the reasoning behind each rather than reducing one side to a weak slogan. Two body paragraphs—one for each view—are often a clear option, but the structure should fit your argument."},
+            {"heading":"Add your opinion as a separate job","body":"If the instruction also asks for your opinion, make it clear in the introduction and conclusion, and connect it to the discussion. You can show which view you find stronger or explain a qualified position. Do not assume that balanced coverage automatically communicates your own judgement."},
+            {"heading":"Use proportion purposefully","body":"A fair discussion does not require identical word counts. Give enough explanation to each view for the comparison to be meaningful, then make the judgement the prompt requests."}
+          ],
+          "example":{"label":"Make the opinion explicit","content":"“Supporters argue that cultural funding preserves shared heritage. Critics prioritize immediate services. While both goals matter, I believe a stable cultural budget is justified when essential services are already protected.” Both views are represented and the writer’s view is unmistakable."},
+          "check":{"question":"A prompt says “Discuss both views and give your opinion.” Which response covers the full instruction?","options":[{"text":"Explain each view and state a clear personal judgement.","correct":true,"feedback":"Correct. The instruction contains two discussion jobs and a judgement job."},{"text":"Explain one view in detail and mention the other in a phrase.","correct":false,"feedback":"This does not meaningfully discuss both views."},{"text":"Describe both views but never state what you think.","correct":false,"feedback":"The prompt explicitly asks for your opinion too."}]},
+          "challenge":{"guided":"Write one sentence for each view and underline your opinion sentence.","core":"Make a two-paragraph plan that explains both views and includes a clear judgement.","stretch":"Write a qualified opinion that recognizes when each view is strongest, then reach a direct conclusion."},
+          "practiceIds":["t2-wealth","t2-quiet","x3-culture"]
+        },
+        {
+          "id":"t2-advantages","title":"Weigh advantages against disadvantages","area":"Evaluation essays","minutes":12,"objective":"Compare benefits and costs and answer whether one side outweighs the other.",
+          "sections":[
+            {"heading":"Notice the difference in instructions","body":"“What are the advantages and disadvantages?” asks you to discuss both. “Do the advantages outweigh the disadvantages?” asks for both discussion and an overall comparison. In an outweigh essay, simply listing equal numbers of points is not enough; explain which effects matter more and why."},
+            {"heading":"Choose a basis for comparison","body":"You might compare how many people are affected, how serious the effects are, how long they last, or whether they can be reduced. State the basis through your reasoning rather than making an unsupported claim that one side is “obviously” stronger."},
+            {"heading":"Keep the judgement consistent","body":"A clear judgement can be qualified. For example, a change may bring wider access overall while creating costs for a smaller group. The body should establish the evidence for that judgement, and the conclusion should answer the outweigh question directly."}
+          ],
+          "example":{"label":"Compare impact","content":"Flexible work can reduce commuting for many employees, while some new staff may lose informal mentoring. If judging that benefits outweigh costs, explain why the broader reduction in travel and improved access matter more, and acknowledge conditions that reduce the mentoring cost."},
+          "check":{"question":"What extra job does an “outweigh” prompt require?","options":[{"text":"Judge the relative importance of the advantages and disadvantages.","correct":true,"feedback":"Correct. You need an explicit comparative judgement, not only two lists."},{"text":"Discuss advantages but ignore disadvantages.","correct":false,"feedback":"Both sides are part of the comparison."},{"text":"Use exactly the same number of words for each side.","correct":false,"feedback":"Equal word counts are not required; relevant reasoning is."}]},
+          "challenge":{"guided":"Choose one advantage and one disadvantage, then write which matters more and why.","core":"Create a plan for both sides and underline the point that determines your final judgement.","stretch":"Compare the same benefits and costs using severity, duration and reach; state which comparison is most persuasive."},
+          "practiceIds":["t2-remote-work","x4-price"]
+        },
+        {
+          "id":"t2-problem-two-part","title":"Answer problem and two-part questions","area":"Problem solving","minutes":13,"objective":"Give each cause, solution or direct question enough attention in the essay.",
+          "sections":[
+            {"heading":"Map each part to a paragraph","body":"Problem-solution prompts commonly ask what causes an issue and what actions could address it. Two-part prompts ask two direct questions, such as why something happens and whether it is positive. Turn each question into a planning heading, then make sure each has a developed answer."},
+            {"heading":"Connect causes and solutions","body":"A useful solution responds to a cause or practical barrier rather than appearing as a generic wish. Identify who could act—individuals, institutions, employers or governments—and explain how the action could help. Avoid promising that a single policy will solve a complex problem completely."},
+            {"heading":"Balance the response","body":"A long answer to the first question cannot compensate for ignoring the second. Allocate space according to the prompt and the complexity of each part. In the final check, tick off every question mark or instruction clause in the original prompt."}
+          ],
+          "example":{"label":"Link a problem to an action","content":"Cause: households buy food without planning meals and forget what is already in the fridge. Action: schools and local authorities can teach simple meal planning and date-label reading. Link: these skills address the behavior creating avoidable waste."},
+          "check":{"question":"How can you avoid leaving one part of a two-part prompt underdeveloped?","options":[{"text":"Turn each question into a planning heading and check both in the draft.","correct":true,"feedback":"Correct. Making the jobs visible helps allocate and review coverage."},{"text":"Answer the question that seems easiest and ignore the other.","correct":false,"feedback":"Every part of the prompt must receive a relevant answer."},{"text":"Write more than 250 words on the first part only.","correct":false,"feedback":"Length does not replace coverage."}]},
+          "challenge":{"guided":"Split a prompt into two labeled questions and write one answer idea for each.","core":"Plan a cause/problem paragraph and a matching solution paragraph for a familiar issue.","stretch":"Analyze a prompt with two direct questions and allocate paragraph space based on the demands of each."},
+          "practiceIds":["t2-food-waste","t2-sugar"]}
+      ]
+    },
+    {
+      "id":"language",
+      "title":"Language workshop",
+      "summary":"Make wording precise, links natural and sentences clear under exam conditions.",
+      "accent":"gold",
+      "lessons":[
+        {
+          "id":"lang-paraphrase","title":"Paraphrase without changing the meaning","area":"Paraphrasing","minutes":10,"objective":"Restate a prompt accurately through selective changes in wording and structure.",
+          "sections":[
+            {"heading":"Keep the idea before changing the words","body":"A paraphrase preserves the key meaning while changing wording or structure where natural. First identify the topic, scope and relationship in the original. Replace only words you understand and keep essential limits, such as “some,” “in cities,” or a particular time period."},
+            {"heading":"Change structure when it helps","body":"You can change a noun phrase to a verb phrase or reorganize a clause. “The number of people using public transport increased” can become “More people travelled by public transport.” Replacing one word with an awkward synonym is not necessary."},
+            {"heading":"Protect key terms","body":"Some terms have no safe substitute. Reusing a precise technical word is better than an inaccurate replacement. Paraphrase mainly to introduce the topic; do not force a new version of every noun in the question."}
+          ],
+          "example":{"label":"Meaning-preserving change","content":"Original: “Many households discard edible food.” Paraphrase: “A large amount of food that could still be eaten is thrown away in homes.” The wording changes while the central meaning stays intact."},
+          "check":{"question":"What is the most important test for a paraphrase?","options":[{"text":"It keeps the original meaning and scope accurate.","correct":true,"feedback":"Correct. Accuracy matters more than changing every word."},{"text":"It uses a different synonym for every word.","correct":false,"feedback":"Forced substitutions can distort meaning and sound unnatural."},{"text":"It removes qualifiers such as “some” or “in cities.”","correct":false,"feedback":"Qualifiers can be essential to the prompt’s scope."}]},
+          "challenge":{"guided":"Underline the key meaning in a prompt and replace one phrase safely.","core":"Write two accurate paraphrases of a Task 2 topic sentence using different sentence structures.","stretch":"Find a synonym that changes a prompt’s scope; explain the distortion and produce a safer version."},
+          "practiceIds":["t2-food-waste","t2-remote-work"]
+        },
+        {
+          "id":"lang-vocabulary","title":"Choose precise academic vocabulary","area":"Vocabulary","minutes":11,"objective":"Use topic words and collocations that express the intended idea precisely.",
+          "sections":[
+            {"heading":"Precision beats decoration","body":"Strong vocabulary makes meaning more precise. Learn common combinations such as “pose a risk,” “public transport,” “a sharp increase,” or “allocate funding.” A familiar word used accurately is stronger than a rare word that does not fit the context."},
+            {"heading":"Use the right word for the relationship","body":"Distinguish cause from correlation, people from institutions, and a quantity from a rate. Check whether a verb takes the form you wrote: people “access” a service, an agency “provides access,” and a policy “affects” a group."},
+            {"heading":"Avoid memorized filler","body":"Phrases such as “in this modern era” or “every coin has two sides” often add nothing and may not fit the question. Build a small topic bank of accurate nouns, verbs and collocations, then adapt it to the prompt."}
+          ],
+          "example":{"label":"Precise word choice","content":"Less precise: “The policy made a big change to waste.” More precise: “The local scheme reduced edible food waste.” The second sentence identifies the action and the measurable result."},
+          "check":{"question":"Which vocabulary choice is generally strongest?","options":[{"text":"A familiar word that precisely matches the meaning and collocation.","correct":true,"feedback":"Correct. Accuracy and natural use matter more than rarity."},{"text":"The longest synonym you can remember, even if uncertain.","correct":false,"feedback":"An uncertain word can distort your meaning."},{"text":"A memorized opening phrase regardless of the question.","correct":false,"feedback":"Prepared filler may not address the topic."}]},
+          "challenge":{"guided":"Replace one vague verb such as “make” with a precise verb in context.","core":"Collect five useful topic words and write a natural sentence for each.","stretch":"Edit a paragraph to remove two inflated phrases and replace them with precise wording."},
+          "practiceIds":["t2-sugar","t2-food-waste","x4-price"]
+        },
+        {
+          "id":"lang-cohesion","title":"Connect ideas naturally","area":"Cohesion","minutes":10,"objective":"Create clear links between ideas without relying on a chain of formulaic connectors.",
+          "sections":[
+            {"heading":"Order first, signal second","body":"Readers follow an argument when each sentence grows from the last. Organize the ideas before adding linking words. Use a connector when it clarifies a real relationship—contrast, result, addition or example—not simply to begin every sentence."},
+            {"heading":"Make reference clear","body":"Reference words such as “this,” “they” and “such a policy” connect ideas efficiently, but their meaning must be obvious. If “this” could refer to several claims, repeat a precise noun or summarize the idea: “This reduction in travel time…”"},
+            {"heading":"Vary paragraph openings","body":"Topic sentences can announce a reason, contrast, condition or consequence. Not every paragraph needs “Firstly” and “Secondly.” Cohesion comes from clear progression and consistent reference, not from the number of transition words."}
+          ],
+          "example":{"label":"Clarify the link","content":"Unclear: “Firms offer remote work. This is useful.” Clearer: “When firms offer remote work, employees with long commutes can save time. This reduction in daily travel may also ease congestion.” The reference now has a clear meaning."},
+          "check":{"question":"What should you do before adding linking words?","options":[{"text":"Make sure the ideas are ordered in a logical progression.","correct":true,"feedback":"Correct. Clear organization carries the argument; connectors should make relationships clearer."},{"text":"Begin every sentence with a transition phrase.","correct":false,"feedback":"This can sound mechanical and does not repair unclear logic."},{"text":"Use “this” even when its reference is ambiguous.","correct":false,"feedback":"Unclear reference makes the connection harder to follow."}]},
+          "challenge":{"guided":"Label two sentences as reason, example or result, then place them in logical order.","core":"Revise a paragraph by clarifying two references and removing one unnecessary connector.","stretch":"Rewrite a paragraph that uses “Firstly/Secondly/Moreover” in every sentence, preserving its logic with more natural links."},
+          "practiceIds":["t2-quiet","t2-remote-work"]
+        },
+        {
+          "id":"lang-sentences","title":"Build varied, controlled sentences","area":"Grammar range","minutes":12,"objective":"Use a mix of sentence structures while keeping relationships and grammar clear.",
+          "sections":[
+            {"heading":"Vary with purpose","body":"A response can combine simple, compound and complex sentences. A complex sentence may show a reason, contrast, time or condition: “Although travel costs have fallen, some rural residents still have limited access.” Use a structure because it expresses the relationship you mean, not to make the sentence longer."},
+            {"heading":"Control clause boundaries","body":"A sentence needs a complete main clause. Avoid joining two independent clauses with only a comma. Break a crowded sentence into two when it contains several claims, unclear pronouns or too many subordinate clauses."},
+            {"heading":"Use grammatical choices that support meaning","body":"Compare active and passive voice, singular and plural forms, and verb tense. The active voice often makes responsibility clear; the passive can focus on a process or action. Check subject–verb agreement and articles around countable nouns."}
+          ],
+          "example":{"label":"Combine a relationship","content":"Two simple ideas: “Food is wasted. Households buy more than they need.” Complex sentence: “Because households sometimes buy more food than they can use, edible products may be wasted.” The relationship is explicit."},
+          "check":{"question":"What is the best reason to use a complex sentence?","options":[{"text":"To express a relationship clearly, such as reason or contrast.","correct":true,"feedback":"Correct. Structure should serve meaning and remain controlled."},{"text":"To make every sentence as long as possible.","correct":false,"feedback":"Length can create errors and obscure the main point."},{"text":"To avoid checking clause boundaries.","correct":false,"feedback":"Complex sentences still need clear, complete clause structure."}]},
+          "challenge":{"guided":"Join two short sentences using because, although or when; check that the result is complete.","core":"Write a paragraph with a mix of short and complex sentences, then check agreement and punctuation.","stretch":"Edit a long sentence into two or three clear sentences without losing its contrast or cause relationship."},
+          "practiceIds":["t2-wealth","t2-sugar","x5-silence"]
+        },
+        {
+          "id":"lang-edit","title":"Edit for accuracy and clarity","area":"Proofreading","minutes":10,"objective":"Use a short final review to find errors that affect meaning and fluency.",
+          "sections":[
+            {"heading":"Read for meaning before spelling","body":"Use a focused final pass rather than rereading without a target. First check that the answer covers every prompt part and each paragraph supports the plan. Then inspect verb forms, subject–verb agreement, articles, plurals, punctuation and copied figures."},
+            {"heading":"Prioritize patterns you often miss","body":"A short check cannot repair every weakness. Keep a personal list of recurring errors and look specifically for them. Read sentence by sentence; pause at long sentences, where missing verbs, unclear references and punctuation problems are easier to overlook."},
+            {"heading":"Protect the last minutes","body":"Reserve a little time to edit, but do not spend so long polishing one sentence that you fail to finish the response. Correct a clear error when you see it, then continue. Accuracy improves through repeated practice and noticing patterns."}
+          ],
+          "example":{"label":"A 30-second check","content":"Draft: “The number of people were higher in 2020.” Check the subject: “number” is singular, so revise to “The number of people was higher in 2020.” Then confirm that the figure and year match the visual."},
+          "check":{"question":"Which final review order is most useful?","options":[{"text":"Check task coverage and paragraph meaning, then target common grammar and data errors.","correct":true,"feedback":"Correct. Review the response’s purpose, then inspect high-impact accuracy points."},{"text":"Search only for spelling and ignore the question prompt.","correct":false,"feedback":"A polished sentence cannot compensate for an unanswered prompt part."},{"text":"Rewrite the entire essay in the final minute.","correct":false,"feedback":"A rushed rewrite risks losing clear ideas and introducing new errors."}]},
+          "challenge":{"guided":"Check a short paragraph for subject–verb agreement, articles and full stops.","core":"Create a personal three-item editing checklist based on errors you have noticed.","stretch":"Review a timed draft and identify which two revisions improve clarity most without rewriting it all."},
+          "practiceIds":["t1-noise","t2-remote-work"]}
+      ]
+    },
+    {
+      "id":"exam",
+      "title":"Exam practice",
+      "summary":"Bring selection, planning, writing and review together under realistic time limits.",
+      "accent":"teal",
+      "lessons":[
+        {
+          "id":"exam-timing","title":"Build a practical 60-minute strategy","area":"Time management","minutes":10,"objective":"Allocate time to planning, writing and checking both tasks.",
+          "visual":{"layout":"split","title":"A flexible starting split","items":[{"label":"20 min · Task 1","detail":"Read and select · draft · check"},{"label":"40 min · Task 2","detail":"Unpack and plan · develop · check"}]},
+          "sections":[
+            {"heading":"Start with a repeatable plan","body":"A useful baseline is 20 minutes for Task 1 and 40 minutes for Task 2. Reserve a short opening period to read carefully and select ideas, then write, and leave time to check. Task 2 is worth twice as much, so avoid letting Task 1 consume the essay’s time."},
+            {"heading":"Adapt to the work in front of you","body":"A familiar chart may need less planning; a dense visual may need more selection time. A two-part essay deserves a prompt checklist. Adjust within the hour while keeping both answers complete. Practice with separate timers first, then try a single 60-minute session."},
+            {"heading":"Recover when you fall behind","body":"If time is short, complete the required response with clear organization before polishing optional phrasing. A concise, relevant conclusion is more useful than a new idea left half-developed. After practice, record where time went and change one part of your next schedule."}
+          ],
+          "example":{"label":"A flexible split","content":"Task 1: 3 minutes select features, 14 draft, 3 check. Task 2: 5 minutes analyze and plan, 31 draft, 4 check. If Task 1 is unusually complex, borrow a minute only if Task 2 still has enough time for a developed answer."},
+          "check":{"question":"Why should Task 2 have a larger share of your writing time?","options":[{"text":"It contributes twice as much as Task 1 to the Writing score.","correct":true,"feedback":"Correct. The standard timing reflects its greater weighting and longer essay task."},{"text":"Task 1 is unimportant and can be skipped.","correct":false,"feedback":"Both tasks matter and both need a complete response."},{"text":"Task 2 always needs exactly twice as many paragraphs.","correct":false,"feedback":"The weighting does not prescribe a paragraph count."}]},
+          "challenge":{"guided":"Make a simple 20/40 minute schedule and mark where you will check each response.","core":"Complete one task with a timer and record actual planning, drafting and checking time.","stretch":"Plan a full 60-minute session with a recovery rule for a task that takes longer than expected."},
+          "practiceIds":["t1-art","t2-remote-work"]
+        },
+        {
+          "id":"exam-full-review","title":"Complete and review a full writing practice","area":"Full practice","minutes":60,"objective":"Complete both tasks, then use the four criteria to choose a focused next step.",
+          "visual":{"layout":"grid","title":"Review one criterion at a time","items":[{"label":"Task Achievement / Response","detail":"Coverage, key features, position"},{"label":"Coherence and Cohesion","detail":"Paragraph order and clear links"},{"label":"Lexical Resource","detail":"Precise words and natural collocations"},{"label":"Grammar Range and Accuracy","detail":"Sentence variety and control"}]},
+          "sections":[
+            {"heading":"Run the full sequence","body":"Choose one Task 1 and one Task 2 exercise. Use one 60-minute session: roughly 20 minutes for the visual summary and 40 for the essay. Follow the practice conditions you need, and write both responses in separate drafts if your study setup allows."},
+            {"heading":"Review evidence, not a guessed band","body":"After writing, review each response with the relevant task checklist. Under Task Achievement/Response, look for coverage and key ideas. Under Coherence and Cohesion, trace the paragraph progression. Under Lexical Resource, mark imprecise or repeated wording. Under Grammar, identify sentence patterns and recurring errors."},
+            {"heading":"Choose the next lesson from what you notice","body":"Select one strength to preserve and one specific skill to practise next. “Improve grammar” is broad; “check plural endings in the final pass” is actionable. Save a baseline and revisit it later. If a high-stakes band estimate matters, seek qualified human feedback; this page cannot grade an essay."}
+          ],
+          "example":{"label":"Turn review into practice","content":"Observation: the Task 1 response has a clear overview but lists too many figures. Next step: revisit selecting key features, then write a new summary with three main comparisons. The review names an observable behavior instead of guessing a score."},
+          "check":{"question":"What is the most useful outcome of a self-review?","options":[{"text":"One specific next skill based on evidence in the response.","correct":true,"feedback":"Correct. Focused next steps guide practice; a self-review does not produce an official band."},{"text":"A guaranteed prediction of the official IELTS score.","correct":false,"feedback":"This course does not assess essays or predict scores."},{"text":"A list of every possible grammar rule to study at once.","correct":false,"feedback":"A broad list is harder to act on than a specific priority."}]},
+          "challenge":{"guided":"Complete one Task 1 and one Task 2 checklist; choose one item to improve.","core":"Write both tasks under a 60-minute timer and name one strength plus one next step for each.","stretch":"Repeat a full practice after one targeted lesson and compare the selected evidence from both attempts."},
+          "practiceIds":["t1-art","t1-lakeside-map","t2-remote-work","t2-food-waste"]}
+      ]
+    }
+  ]
+}

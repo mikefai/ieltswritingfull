@@ -1,0 +1,441 @@
+{
+  "exams": [
+    {
+      "id": "mock-01",
+      "title": "Power under pressure",
+      "theme": "Energy and higher education",
+      "challenge": "Four intersecting trajectories, one late reversal, and several tempting but inaccurate percentage comparisons.",
+      "task1": {
+        "title": "Low-carbon electricity generation",
+        "kind": "Line graph",
+        "prompt": "The line graph below shows the percentage of electricity generated from low-carbon sources in four regions between 1995 and 2020.",
+        "figure": {
+          "kind": "line",
+          "title": "Electricity from low-carbon sources, 1995–2020",
+          "aria": "Line graph showing the share of electricity generated from low-carbon sources in four regions from 1995 to 2020.",
+          "data": {
+            "yMax": 60,
+            "step": 10,
+            "yLabel": "Share of electricity (%)",
+            "xLabel": "Year",
+            "xLabels": ["1995", "2000", "2005", "2010", "2015", "2020"],
+            "series": [
+              { "name": "North", "values": [16, 23, 36, 34, 39, 46] },
+              { "name": "Coastal", "values": [28, 31, 30, 41, 43, 44] },
+              { "name": "Central", "values": [48, 44, 40, 38, 35, 32] },
+              { "name": "Island", "values": [9, 18, 27, 29, 28, 24] }
+            ]
+          },
+          "caption": "Original illustrative practice data."
+        }
+      },
+      "task2": {
+        "title": "Universities and employment",
+        "question": "Some people think university courses should be designed mainly to meet the needs of employers. Others believe universities should offer a broad education that is independent of short-term labour-market demands. Discuss both views and give your own opinion.",
+        "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience."
+      }
+    },
+    {
+      "id": "mock-02",
+      "title": "The cost of getting there",
+      "theme": "Transport and public investment",
+      "challenge": "A six-row table combines persistent leaders, a declining outlier, and a rapid catch-up that is easy to overstate.",
+      "task1": {
+        "title": "Public transport use in six cities",
+        "kind": "Table",
+        "prompt": "The table below shows the percentage of commuting journeys made by public transport in six cities in 1990, 2005 and 2020.",
+        "figure": {
+          "kind": "table",
+          "title": "Commuting journeys by public transport (%)",
+          "aria": "Table comparing the share of commuting journeys made by public transport in six cities in 1990, 2005 and 2020.",
+          "data": {
+            "head": "City",
+            "years": [1990, 2005, 2020],
+            "rows": [
+              ["Northport", 38, 48, 57],
+              ["Westhaven", 44, 47, 39],
+              ["Eastmere", 24, 36, 50],
+              ["Southbank", 61, 55, 49],
+              ["Riverton", 17, 29, 33],
+              ["Hillford", 31, 32, 45]
+            ]
+          },
+          "caption": "Original illustrative practice data."
+        }
+      },
+      "task2": {
+        "title": "How transport projects should be judged",
+        "question": "Major transport projects should be judged mainly by how much they reduce carbon emissions, even when they do not save time or public money. To what extent do you agree or disagree?",
+        "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience."
+      }
+    },
+    {
+      "id": "mock-03",
+      "title": "Every drop counted",
+      "theme": "Water use and public services",
+      "challenge": "Two six-part distributions must be compared without confusing a share of use with an absolute volume or inventing causes.",
+      "task1": {
+        "title": "Household water use in two cities",
+        "kind": "Two pie charts",
+        "prompt": "The charts below show how household water use was distributed among six purposes in two cities.",
+        "figureCaption": "Original illustrative practice data. Each chart shows the proportion of household water use by purpose.",
+        "figures": [
+          {
+            "kind": "pie",
+            "title": "City A",
+            "aria": "Pie chart showing household water use by six purposes in City A.",
+            "data": [
+              { "name": "Bathing", "value": 30 },
+              { "name": "Toilets", "value": 25 },
+              { "name": "Laundry", "value": 19 },
+              { "name": "Gardening", "value": 8 },
+              { "name": "Cooking and drinking", "value": 10 },
+              { "name": "Other", "value": 8 }
+            ]
+          },
+          {
+            "kind": "pie",
+            "title": "City B",
+            "aria": "Pie chart showing household water use by six purposes in City B.",
+            "data": [
+              { "name": "Bathing", "value": 24 },
+              { "name": "Toilets", "value": 21 },
+              { "name": "Laundry", "value": 16 },
+              { "name": "Gardening", "value": 21 },
+              { "name": "Cooking and drinking", "value": 12 },
+              { "name": "Other", "value": 6 }
+            ]
+          }
+        ]
+      },
+      "task2": {
+        "title": "Fairness in public services",
+        "question": "Some people believe public services should receive resources in proportion to the number of people who use them. Others argue that equal provision is necessary to ensure fairness. Discuss both views and give your own opinion.",
+        "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience."
+      }
+    },
+    {
+      "id": "mock-04",
+      "title": "From sea to supply",
+      "theme": "Water engineering and heritage",
+      "challenge": "An eight-stage technical sequence requires accurate process language and careful separation of treatment from distribution.",
+      "task1": {
+        "title": "Producing drinking water by reverse osmosis",
+        "kind": "Process diagram",
+        "prompt": "The diagram below shows the stages used to turn seawater into drinking water by reverse osmosis.",
+        "figure": {
+          "kind": "process",
+          "title": "Seawater treatment by reverse osmosis",
+          "aria": "Process diagram showing eight stages in producing drinking water from seawater by reverse osmosis.",
+          "data": {
+            "steps": [
+              { "title": "Seawater intake", "detail": "Seawater is drawn from offshore through an intake pipe fitted with a coarse screen.", "icon": "collect" },
+              { "title": "Initial screening", "detail": "The screen removes larger debris before the water enters the treatment plant.", "icon": "sort" },
+              { "title": "Pre-treatment", "detail": "Fine filters and conditioning chemicals reduce suspended particles that could damage the membranes.", "icon": "wash" },
+              { "title": "Pressurisation", "detail": "Pumps raise the pressure of the filtered seawater to the level required by the membranes.", "icon": "inspect" },
+              { "title": "Membrane separation", "detail": "Reverse-osmosis membranes allow water molecules through while retaining most dissolved salts.", "icon": "separate" },
+              { "title": "Mineral adjustment", "detail": "The low-mineral permeate is remineralised and its pH is adjusted to make it suitable for supply.", "icon": "filter" },
+              { "title": "Disinfection", "detail": "A final disinfection stage controls microorganisms before storage.", "icon": "inspect" },
+              { "title": "Storage and distribution", "detail": "Treated water is stored in a covered reservoir and then pumped into the municipal network.", "icon": "distribut" }
+            ]
+          },
+          "caption": "Stages shown in order; details are simplified for writing practice."
+        }
+      },
+      "task2": {
+        "title": "The cost of preserving the past",
+        "question": "Historic buildings should be preserved even when maintaining them is costly and limits the ways in which a city can develop. To what extent do you agree or disagree?",
+        "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience."
+      }
+    },
+    {
+      "id": "mock-05",
+      "title": "A campus in transition",
+      "theme": "Campus development and conservation",
+      "challenge": "Two maps contain removals, replacements, retained areas and expanded buildings; location language must stay precise.",
+      "task1": {
+        "title": "Riverton University campus",
+        "kind": "Maps",
+        "prompt": "The maps below show Riverton University campus in 2010 and its planned layout in 2030.",
+        "figure": {
+          "kind": "map",
+          "title": "Riverton University campus: 2010 and 2030",
+          "aria": "Two maps comparing the locations and land uses on Riverton University campus in 2010 and 2030.",
+          "legend": [
+            { "name": "Buildings" },
+            { "name": "Green space" },
+            { "name": "Road" },
+            { "name": "Path" }
+          ],
+          "data": {
+            "periods": [
+              {
+                "label": "2010",
+                "features": [
+                  { "name": "Library", "x": 4, "y": 17, "width": 25, "height": 18, "kind": "building" },
+                  { "name": "Teaching blocks", "x": 36, "y": 17, "width": 25, "height": 20, "kind": "building" },
+                  { "name": "Car park", "x": 68, "y": 17, "width": 27, "height": 18, "kind": "open" },
+                  { "name": "Cafeteria", "x": 5, "y": 43, "width": 23, "height": 15, "kind": "building" },
+                  { "name": "Sports field", "x": 34, "y": 47, "width": 29, "height": 19, "kind": "green" },
+                  { "name": "Woodland", "x": 68, "y": 43, "width": 27, "height": 24, "kind": "green" },
+                  { "name": "South lawn", "x": 36, "y": 73, "width": 25, "height": 20, "kind": "open" },
+                  { "name": "Main path", "x": 5, "y": 76, "width": 24, "height": 13, "kind": "path" }
+                ]
+              },
+              {
+                "label": "2030 plan",
+                "features": [
+                  { "name": "Expanded library", "x": 4, "y": 17, "width": 29, "height": 18, "kind": "building" },
+                  { "name": "Teaching blocks", "x": 36, "y": 17, "width": 25, "height": 20, "kind": "building" },
+                  { "name": "Research centre", "x": 68, "y": 17, "width": 27, "height": 18, "kind": "building" },
+                  { "name": "Cafeteria", "x": 5, "y": 43, "width": 23, "height": 15, "kind": "building" },
+                  { "name": "Student centre", "x": 34, "y": 47, "width": 29, "height": 19, "kind": "building" },
+                  { "name": "Woodland", "x": 68, "y": 43, "width": 27, "height": 24, "kind": "green" },
+                  { "name": "Student housing", "x": 36, "y": 73, "width": 25, "height": 20, "kind": "building" },
+                  { "name": "Cycle path", "x": 5, "y": 76, "width": 24, "height": 13, "kind": "path" }
+                ]
+              }
+            ]
+          },
+          "caption": "Original illustrative maps. North is at the top."
+        }
+      },
+      "task2": {
+        "title": "Conservation and short-term growth",
+        "question": "Some people think protecting natural environments should take priority over economic development, even when this limits job creation in the short term. To what extent do you agree or disagree?",
+        "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience."
+      }
+    },
+    {
+      "id": "mock-06",
+      "title": "What gets measured",
+      "theme": "Waste and institutional funding",
+      "challenge": "Twelve grouped values contain one falling category, several unequal gains and a very low baseline that can distort percentage claims.",
+      "task1": {
+      "title": "Recycling rates for six materials",
+        "kind": "Grouped bar chart",
+        "prompt": "The bar chart below compares the proportions of six types of household waste recycled in 2010 and 2020.",
+        "figure": {
+          "kind": "bar",
+          "title": "Household waste recycled by material",
+          "aria": "Grouped bar chart comparing recycling rates for six household materials in 2010 and 2020.",
+          "legend": [
+            { "name": "2010" },
+            { "name": "2020" }
+          ],
+          "data": {
+            "max": 80,
+            "step": 20,
+            "yLabel": "Proportion recycled (%)",
+            "xLabel": "Material",
+            "series": [
+              { "name": "2010" },
+              { "name": "2020" }
+            ],
+            "groups": [
+              { "label": "Glass", "values": [62, 58] },
+              { "label": "Paper", "values": [54, 71] },
+              { "label": "Metal", "values": [47, 61] },
+              { "label": "Plastic", "values": [18, 35] },
+              { "label": "Food", "values": [12, 44] },
+              { "label": "Textiles", "values": [7, 16] }
+            ]
+          },
+          "caption": "Original illustrative practice data."
+        }
+      },
+      "task2": {
+        "title": "Funding by performance statistics",
+        "question": "Some people believe schools and hospitals should receive public funding according to measurable performance. Others argue this would unfairly disadvantage institutions serving more difficult circumstances. Discuss both views and give your own opinion.",
+        "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience."
+      }
+    },
+    {
+      "id": "mock-07",
+      "title": "The price of progress",
+      "theme": "Industry and university access",
+      "challenge": "A six-sector table mixes large absolute reductions, a mid-period increase, and a high starting value that remains high.",
+      "task1": {
+        "title": "Carbon intensity in six sectors",
+        "kind": "Table",
+        "prompt": "The table below shows carbon dioxide emissions per million US dollars of output in six sectors in 2000, 2010 and 2020.",
+        "figure": {
+          "kind": "table",
+          "title": "Carbon intensity by sector (tonnes of CO₂ per million US dollars of output)",
+          "aria": "Table comparing carbon dioxide emissions per million US dollars of output in six sectors in 2000, 2010 and 2020.",
+          "data": {
+            "head": "Sector",
+            "years": [2000, 2010, 2020],
+            "rows": [
+              ["Cement", 810, 730, 650],
+              ["Steel", 620, 600, 560],
+              ["Chemicals", 480, 390, 410],
+              ["Aviation", 910, 880, 850],
+              ["Agriculture", 320, 335, 300],
+              ["Electricity", 760, 520, 290]
+            ]
+          },
+          "caption": "Original illustrative practice data."
+        }
+      },
+      "task2": {
+        "title": "Who should pay for university?",
+        "question": "Some people think university education should be free for everyone. Others believe public support should be limited to students who could not otherwise afford it. Discuss both views and give your own opinion.",
+        "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience."
+      }
+    },
+    {
+      "id": "mock-08",
+      "title": "Care under pressure",
+      "theme": "Health services and energy use",
+      "challenge": "A departmental comparison must be reconciled with the total trend, which peaks before the final year and then declines.",
+      "task1": {
+        "title": "Electricity use at a hospital",
+        "kind": "Bar chart and line graph",
+        "prompt": "The bar chart shows electricity consumption by department at a hospital in 2010 and 2020. The line graph shows the hospital's total annual consumption from 2010 to 2020.",
+        "figureCaption": "Original illustrative practice data. Consumption is measured in gigawatt-hours (GWh).",
+        "figures": [
+          {
+            "kind": "bar",
+            "title": "Departmental electricity consumption",
+            "aria": "Grouped bar chart showing hospital electricity use by five departments in 2010 and 2020.",
+            "legend": [
+              { "name": "2010" },
+              { "name": "2020" }
+            ],
+            "data": {
+              "max": 16,
+              "step": 4,
+              "yLabel": "Consumption (GWh)",
+              "xLabel": "Department",
+              "series": [
+                { "name": "2010" },
+                { "name": "2020" }
+              ],
+              "groups": [
+                { "label": "Emergency", "values": [9, 10] },
+                { "label": "Imaging", "values": [8, 11] },
+                { "label": "Wards", "values": [12, 13] },
+                { "label": "Laboratories", "values": [7, 8] },
+                { "label": "Administration", "values": [6, 3] }
+              ]
+            }
+          },
+          {
+            "kind": "line",
+            "title": "Total annual hospital consumption",
+            "aria": "Line graph showing total hospital electricity consumption in GWh from 2010 to 2020.",
+            "data": {
+              "yMax": 60,
+              "step": 10,
+              "yLabel": "Consumption (GWh)",
+              "xLabel": "Year",
+              "xLabels": ["2010", "2012", "2014", "2016", "2018", "2020"],
+              "series": [
+                { "name": "Total", "values": [42, 43, 46, 49, 47, 45] }
+              ]
+            }
+          }
+        ]
+      },
+      "task2": {
+        "title": "Preventing illness or treating it",
+        "question": "Some people believe governments should spend more on preventing illness than on treating people who are already sick. To what extent do you agree or disagree?",
+        "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience."
+      }
+    },
+    {
+      "id": "mock-09",
+      "title": "Learning across a lifetime",
+      "theme": "Adult education and social progress",
+      "challenge": "The steepest change belongs to a late entrant; distinguish it from the stable series and the categories that decline steadily.",
+      "task1": {
+        "title": "Participation in adult education",
+        "kind": "Line graph",
+        "prompt": "The line graph below shows the percentage of adults taking part in four forms of continuing education in one country between 2000 and 2020.",
+        "figure": {
+          "kind": "line",
+          "title": "Adult participation in continuing education, 2000–2020",
+          "aria": "Line graph comparing the percentage of adults participating in four forms of continuing education between 2000 and 2020.",
+          "data": {
+            "yMax": 50,
+            "step": 10,
+            "yLabel": "Adults participating (%)",
+            "xLabel": "Year",
+            "xLabels": ["2000", "2005", "2010", "2015", "2020"],
+            "series": [
+              { "name": "Employer-led courses", "values": [34, 39, 36, 31, 29] },
+              { "name": "Evening college", "values": [28, 26, 22, 17, 13] },
+              { "name": "Online courses", "values": [2, 4, 9, 21, 35] },
+              { "name": "Community classes", "values": [18, 19, 17, 18, 19] }
+            ]
+          },
+          "caption": "Original illustrative practice data."
+        }
+      },
+      "task2": {
+        "title": "Measuring social progress",
+        "question": "A country's progress is best measured by the quality of life of its people rather than by economic growth. To what extent do you agree or disagree?",
+        "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience."
+      }
+    },
+    {
+      "id": "mock-10",
+      "title": "A changing harbour",
+      "theme": "Urban space and cultural institutions",
+      "challenge": "The plan shows land-use changes, retained facilities and relocated transport links; a selective overview is essential.",
+      "task1": {
+        "title": "Westhaven harbour redevelopment",
+        "kind": "Maps",
+        "prompt": "The maps below show Westhaven harbour before redevelopment and the proposed plan for the area in 2040.",
+        "figure": {
+          "kind": "map",
+          "title": "Westhaven harbour before redevelopment and in the 2040 plan",
+          "aria": "Two maps comparing features of Westhaven harbour before redevelopment and in the proposed plan for 2040.",
+          "legend": [
+            { "name": "Buildings" },
+            { "name": "Green space" },
+            { "name": "Water" },
+            { "name": "Road" }
+          ],
+          "data": {
+            "periods": [
+              {
+                "label": "Before redevelopment",
+                "features": [
+                  { "name": "Ferry terminal", "x": 5, "y": 17, "width": 27, "height": 17, "kind": "building" },
+                  { "name": "Warehouse", "x": 39, "y": 17, "width": 25, "height": 17, "kind": "building" },
+                  { "name": "Car park", "x": 71, "y": 17, "width": 24, "height": 17, "kind": "open" },
+                  { "name": "Fish market", "x": 7, "y": 44, "width": 26, "height": 17, "kind": "building" },
+                  { "name": "Dock basin", "x": 40, "y": 42, "width": 28, "height": 24, "kind": "water" },
+                  { "name": "Playground", "x": 72, "y": 44, "width": 22, "height": 17, "kind": "open" },
+                  { "name": "Storage sheds", "x": 8, "y": 73, "width": 25, "height": 16, "kind": "building" },
+                  { "name": "Coastal road", "x": 39, "y": 76, "width": 49, "height": 12, "kind": "road" }
+                ]
+              },
+              {
+                "label": "2040 plan",
+                "features": [
+                  { "name": "Ferry terminal", "x": 5, "y": 17, "width": 27, "height": 17, "kind": "building" },
+                  { "name": "Hotel", "x": 39, "y": 17, "width": 25, "height": 17, "kind": "building" },
+                  { "name": "Apartments", "x": 71, "y": 17, "width": 24, "height": 17, "kind": "building" },
+                  { "name": "Fish market", "x": 7, "y": 44, "width": 26, "height": 17, "kind": "building" },
+                  { "name": "Public marina", "x": 40, "y": 42, "width": 28, "height": 24, "kind": "water" },
+                  { "name": "Harbour park", "x": 72, "y": 44, "width": 22, "height": 17, "kind": "green" },
+                  { "name": "Arts centre", "x": 8, "y": 73, "width": 25, "height": 16, "kind": "building" },
+                  { "name": "Coastal road", "x": 39, "y": 76, "width": 49, "height": 12, "kind": "road" }
+                ]
+              }
+            ]
+          },
+          "caption": "Original illustrative maps. North is at the top."
+        }
+      },
+      "task2": {
+        "title": "The purpose of museums",
+        "question": "Some people think museums and art galleries should focus on serving local communities, while others believe they should aim to attract visitors from around the world. Discuss both views and give your own opinion.",
+        "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1739 @@
+{
+  "review": {
+    "1": [
+      "I wrote at least 150 words.",
+      "My overview summarises the whole visual, or both visuals, without quoting figures.",
+      "I reported the main features instead of every number.",
+      "I made direct comparisons between items.",
+      "My paragraphs are grouped logically, not item by item.",
+      "Every figure I quoted matches the chart exactly.",
+      "I used the past tense for past data and the present tense for the chart itself."
+    ],
+    "2": [
+      "I wrote at least 250 words.",
+      "I answered every part of the question, not just the part I found easiest.",
+      "My position appears in the introduction and again in the conclusion.",
+      "Each body paragraph has one main idea, supported by a reason or example.",
+      "I used linking devices without overusing them.",
+      "I avoided memorised phrases that do not fit this question.",
+      "I left time to check articles, plurals and verb forms."
+    ]
+  },
+  "language": {
+    "1": [
+      {
+        "name": "Introducing the overview",
+        "items": [
+          [
+            "Overall, the chart shows ...",
+            "Safe opening for the summary paragraph."
+          ],
+          [
+            "The most striking change is the shift from ... to ...",
+            "Names the biggest pattern, not a number."
+          ],
+          [
+            "X rose steadily, whereas Y fell.",
+            "Two directions in one sentence."
+          ]
+        ]
+      },
+      {
+        "name": "Trends and figures",
+        "items": [
+          [
+            "stood at 18 in 1919",
+            "Neutral way to report a figure."
+          ],
+          [
+            "peaked at 62 kg in 2000",
+            "Use for the highest point."
+          ],
+          [
+            "fell by 18 decibels",
+            "Reports the size of the change, not just its direction."
+          ],
+          [
+            "more than doubled",
+            "Precise and easy to check against the data."
+          ]
+        ]
+      },
+      {
+        "name": "Comparison",
+        "items": [
+          [
+            "compared with a single British work",
+            "Adds contrast without a new sentence."
+          ],
+          [
+            "twice as many as",
+            "Multiplier comparisons."
+          ],
+          [
+            "the gap widened from 23 dB to 45 dB",
+            "Shows change in the difference itself."
+          ],
+          [
+            "the only figure below the recommended level",
+            "Highlights an exception."
+          ]
+        ]
+      },
+      {
+        "name": "Accuracy and hedging",
+        "items": [
+          [
+            "approximately / just under / roughly",
+            "For values the chart does not give exactly."
+          ],
+          [
+            "in the region of 40 dB",
+            "Alternative to “about”."
+          ],
+          [
+            "almost one third",
+            "Fractions are often clearer than decimals."
+          ]
+        ]
+      }
+    ],
+    "2": [
+      {
+        "name": "Introducing a view",
+        "items": [
+          [
+            "Those who support this argue that ...",
+            "Opens the first body paragraph."
+          ],
+          [
+            "Opponents reply that ...",
+            "Signals the counter-argument."
+          ],
+          [
+            "It is often claimed that ...",
+            "Distances you from a view you will challenge."
+          ]
+        ]
+      },
+      {
+        "name": "Stating a position",
+        "items": [
+          [
+            "In my view, ...",
+            "Simple and clear; do not hide it until the conclusion."
+          ],
+          [
+            "I find the first argument more persuasive in principle, but the second more persuasive about method.",
+            "A nuanced position that still commits."
+          ],
+          [
+            "This position is defensible because ...",
+            "Links the claim to a reason."
+          ]
+        ]
+      },
+      {
+        "name": "Conceding and rebutting",
+        "items": [
+          [
+            "While it is true that ..., this does not mean that ...",
+            "Concession plus rebuttal."
+          ],
+          [
+            "These objections suggest scale rather than abandonment.",
+            "Narrows your claim instead of ignoring criticism."
+          ],
+          [
+            "Critics warn of over-regulation.",
+            "Reports the opposing view fairly."
+          ]
+        ]
+      },
+      {
+        "name": "Concluding",
+        "items": [
+          [
+            "In conclusion, ...",
+            "Signals the end; no new arguments after this."
+          ],
+          [
+            "The most defensible position is therefore ...",
+            "Restates the position with a reason."
+          ],
+          [
+            "... provided that the rules are targeted and enforced.",
+            "Adds a condition without hedging to nothing."
+          ]
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "t1-art",
+      "task": "1",
+      "nav": "Art collections",
+      "kind": "Bar chart",
+      "words": 150,
+      "title": "Paintings acquired by the Davies sisters",
+      "source": "Theme: Reading Passage 1, “The Davies Sisters”",
+      "instruction": "The chart below shows the number of paintings two Welsh collectors, Gwendoline and Margaret Davies, acquired between 1908 and 1939, divided by decade and by the background of the artists. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "figure": {
+        "kind": "bar",
+        "title": "Paintings acquired, by decade and artist background",
+        "aria": "Bar chart: paintings acquired by the Davies sisters in three periods, split between French Impressionist and British contemporary artists.",
+        "legend": [
+          {
+            "name": "French Impressionist",
+            "color": "var(--graphite)"
+          },
+          {
+            "name": "British contemporary",
+            "color": "var(--teal)"
+          }
+        ],
+        "data": {
+          "max": 20,
+          "step": 5,
+          "yLabel": "Paintings acquired",
+          "xLabel": "Decade",
+          "series": [
+            {
+              "color": "var(--graphite)"
+            },
+            {
+              "color": "var(--teal)"
+            }
+          ],
+          "groups": [
+            {
+              "label": "1908–1919",
+              "values": [
+                18,
+                1
+              ]
+            },
+            {
+              "label": "1920–1929",
+              "values": [
+                7,
+                2
+              ]
+            },
+            {
+              "label": "1930–1939",
+              "values": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        "caption": "Illustrative practice data. Numbers of paintings acquired, by decade."
+      },
+      "quiz": {
+        "q": "Which sentence is the best overview of the chart?",
+        "options": [
+          {
+            "text": "The sisters bought more paintings than other collectors of the period.",
+            "ok": false,
+            "why": "The chart contains nothing about other collectors, so this cannot be concluded from it."
+          },
+          {
+            "text": "Overall, the sisters’ buying moved from French Impressionist work to British contemporary art, and the total number of purchases fell after the first decade.",
+            "ok": true,
+            "why": "It covers the whole period and names the main shift and the overall trend, with no unnecessary figures."
+          },
+          {
+            "text": "The sisters bought 18 French Impressionist paintings between 1908 and 1919.",
+            "ok": false,
+            "why": "Accurate, but it is a single detail rather than a summary of the whole chart."
+          }
+        ]
+      },
+      "analysis": [
+        "The story is a swap rather than a rise: French work dominates the first decade and British work the last.",
+        "18 of the 19 paintings bought before 1920 were by French Impressionists.",
+        "The zero in 1930–1939 is information worth reporting as a change, not a gap in the data.",
+        "Totals were 19, then 9, then 11, so overall buying fell even though the final decade recovered slightly.",
+        "Do not describe all six bars in chart order. Group them by period, or track one series across the three periods."
+      ],
+      "phrases": [
+        [
+          "acquired / purchases of",
+          "“Bought” is too informal for a report; “acquired” and “purchases” are the natural register."
+        ],
+        [
+          "the balance of the collection shifted",
+          "Describes the overall change without listing figures."
+        ],
+        [
+          "the only category to increase",
+          "Useful for a series that moves against the trend."
+        ]
+      ],
+      "model": [
+        "The chart shows the number of paintings acquired by Gwendoline and Margaret Davies in three periods between 1908 and 1939, distinguishing works by French Impressionists from those by contemporary British artists.",
+        "Overall, the sisters’ buying moved from French art to British art, and the total number of purchases fell markedly after the first decade.",
+        "Between 1908 and 1919, French Impressionist paintings dominated: eighteen were bought, compared with a single British work. In the 1920s, acquisitions of French art dropped to seven while British paintings rose only slightly, to two, so the decade’s total was less than half that of the previous one.",
+        "The final period shows the most striking change. No French works were purchased at all between 1930 and 1939, whereas eleven British paintings were acquired, more than five times the figure for the 1920s and the only category to increase in the chart. Consequently, although the sisters bought fewer paintings as time went on, the balance of their collection shifted almost completely from France to Britain."
+      ],
+      "type": "1",
+      "minutes": 20
+    },
+    {
+      "id": "t1-noise",
+      "task": "1",
+      "nav": "City noise",
+      "kind": "Line graph",
+      "words": 150,
+      "title": "Night-time noise in four cities",
+      "source": "Theme: Reading Passage 2, “Why we need silence”",
+      "instruction": "The graph below shows average night-time noise levels in four cities between 2005 and 2025, measured in decibels. It also shows the maximum level recommended by the World Health Organization for night-time noise. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "figure": {
+        "kind": "line",
+        "title": "Average night-time noise in four cities, 2005–2025",
+        "aria": "Line graph: average night-time noise in London, Mumbai, Tokyo and Cardiff from 2005 to 2025, with a dashed line at the WHO recommended 40 decibels.",
+        "legend": [
+          {
+            "name": "Mumbai",
+            "color": "var(--brick)"
+          },
+          {
+            "name": "London",
+            "color": "var(--graphite)"
+          },
+          {
+            "name": "Tokyo",
+            "color": "var(--teal)"
+          },
+          {
+            "name": "Cardiff",
+            "color": "var(--gold)"
+          }
+        ],
+        "data": {
+          "yMax": 90,
+          "step": 15,
+          "yLabel": "Noise level (decibels)",
+          "xLabel": "Year",
+          "xLabels": [
+            "2005",
+            "2010",
+            "2015",
+            "2020",
+            "2025"
+          ],
+          "ref": {
+            "value": 40,
+            "label": [
+              "WHO",
+              "guideline"
+            ]
+          },
+          "series": [
+            {
+              "name": "Mumbai",
+              "color": "var(--brick)",
+              "values": [
+                68,
+                74,
+                79,
+                83,
+                86
+              ]
+            },
+            {
+              "name": "London",
+              "color": "var(--graphite)",
+              "values": [
+                64,
+                60,
+                54,
+                49,
+                46
+              ]
+            },
+            {
+              "name": "Tokyo",
+              "color": "var(--teal)",
+              "values": [
+                55,
+                57,
+                58,
+                60,
+                61
+              ]
+            },
+            {
+              "name": "Cardiff",
+              "color": "var(--gold)",
+              "values": [
+                45,
+                44,
+                43,
+                42,
+                41
+              ]
+            }
+          ]
+        },
+        "caption": "Illustrative practice data. Average night-time noise, in decibels."
+      },
+      "quiz": {
+        "q": "Which sentence is the best overview of the graph?",
+        "options": [
+          {
+            "text": "Noise rose in Mumbai and Tokyo but fell in London and Cardiff. All four cities remained above the recommended level in 2025, although Cardiff was closest to it.",
+            "ok": true,
+            "why": "It groups four lines by direction and accurately compares every final value with the 40-decibel reference."
+          },
+          {
+            "text": "In 2005, Mumbai recorded 68 decibels and Cardiff recorded 45 decibels.",
+            "ok": false,
+            "why": "Two accurate figures, but the overview should describe the pattern across the whole period."
+          },
+          {
+            "text": "City noise is a serious health problem that governments should address.",
+            "ok": false,
+            "why": "That is an opinion from the reading passage, not a summary of what the graph shows."
+          }
+        ]
+      },
+      "analysis": [
+        "Two lines climb (Mumbai, Tokyo) and two fall (London, Cardiff); that grouping is the backbone of the answer.",
+        "Mumbai is the highest city at every date and rises 18 decibels, from 68 to 86.",
+        "London falls furthest, by 18 decibels, but Tokyo rises only 6, so avoid calling both rises “dramatic”.",
+        "The 40-decibel reference line lets you judge every city against a standard, not just against each other.",
+        "Cardiff ends at 41 decibels, just above the 40-decibel reference line; it is the closest city to the guideline.",
+        "The gap between the loudest and quietest city widens from 23 decibels in 2005 to 45 in 2025."
+      ],
+      "phrases": [
+        [
+          "average night-time noise levels",
+          "Keep the unit and the time of day in the opening sentence."
+        ],
+        [
+          "climbed in every five-year period",
+          "Describes an unbroken rise without repeating each figure."
+        ],
+        [
+          "recorded 68 decibels",
+          "Natural verb for a measured value."
+        ],
+        [
+          "well above the recommended level",
+          "Ties the data to the dashed reference line."
+        ]
+      ],
+      "model": [
+        "The line graph compares average night-time noise levels in London, Mumbai, Tokyo and Cardiff between 2005 and 2025, and shows the 40-decibel level recommended by the World Health Organization.",
+        "Overall, noise rose steadily in Mumbai, which was by far the loudest of the four cities throughout, while it declined in London and Cardiff. All four cities remained above the recommended level, with Cardiff closest to it.",
+        "In 2005, Mumbai already recorded 68 decibels, and the figure climbed in every subsequent five-year period, reaching 86 decibels by 2025, more than double the guideline. Tokyo followed a similar but much gentler path, rising from 55 to 61 decibels.",
+        "London moved in the opposite direction. At 64 decibels it was the second loudest city in 2005, but noise fell steadily to 46 decibels, a drop of 18. Cardiff, the quietest city, declined gradually from 45 to 41 decibels.",
+        "Consequently, the gap between Mumbai and Cardiff widened from 23 decibels to 45. Cardiff finished at 41 decibels, just above the 40-decibel reference line."
+      ],
+      "type": "1",
+      "minutes": 20
+    },
+    {
+      "id": "t1-sugar",
+      "task": "1",
+      "nav": "Sugar consumption",
+      "kind": "Table",
+      "words": 150,
+      "title": "Sugar consumption in five countries",
+      "source": "Theme: Reading Passage 3, “The World of Sugar”",
+      "instruction": "The table below shows the amount of sugar consumed per person per year in five countries in 1980, 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "figure": {
+        "kind": "table",
+        "title": "Sugar consumption, kilograms per person per year",
+        "data": {
+          "caption": "Sugar consumption, kilograms per person per year",
+          "head": "Country",
+          "years": [
+            1980,
+            2000,
+            2020
+          ],
+          "rows": [
+            [
+              "Brazil",
+              55,
+              62,
+              48
+            ],
+            [
+              "United States",
+              48,
+              60,
+              54
+            ],
+            [
+              "United Kingdom",
+              45,
+              38,
+              31
+            ],
+            [
+              "Japan",
+              22,
+              24,
+              21
+            ],
+            [
+              "Nigeria",
+              6,
+              9,
+              13
+            ]
+          ]
+        },
+        "caption": "Illustrative practice data. Kilograms per person per year."
+      },
+      "quiz": {
+        "q": "Which detail is worth including rather than leaving out?",
+        "options": [
+          {
+            "text": "Nigeria’s consumption more than doubled, yet remained the lowest in the table.",
+            "ok": true,
+            "why": "It is a real change and a real comparison, so it earns its place in a 150-word answer."
+          },
+          {
+            "text": "Every one of the fifteen figures, country by country.",
+            "ok": false,
+            "why": "A list of numbers is not a summary, and it would leave no room for comparisons or an overview."
+          },
+          {
+            "text": "The conclusion that sugar is harmful to health.",
+            "ok": false,
+            "why": "That is a judgement from the passage. Task 1 reports what the table shows, not what it means for health policy."
+          }
+        ]
+      },
+      "analysis": [
+        "The ranking barely changes: Brazil and the United States are at the top throughout, Nigeria at the bottom.",
+        "The United Kingdom is the only country to fall at every date, losing almost a third of its 1980 figure.",
+        "Brazil and the United States both peak in 2000 and then decline.",
+        "Nigeria more than doubles, but its 2020 figure is still under a third of Brazil’s.",
+        "Japan is almost flat; one sentence is enough. A table rewards selection: describe two or three rows in detail, then summarise the rest."
+      ],
+      "phrases": [
+        [
+          "kilograms per person per year",
+          "Name the unit once, early, then use bare figures."
+        ],
+        [
+          "consumption peaked in 2000",
+          "For the highest point in a row or column."
+        ],
+        [
+          "fell at every date",
+          "Compact way to describe a consistent decline."
+        ],
+        [
+          "by far the lowest",
+          "Signals a large gap, not a small one."
+        ]
+      ],
+      "model": [
+        "The table shows how much sugar was consumed per person per year in five countries in 1980, 2000 and 2020, measured in kilograms.",
+        "Overall, consumption was highest in Brazil and the United States and lowest in Nigeria throughout the period. Intake fell in the United Kingdom, rose in Nigeria, and in Brazil and the United States peaked in 2000 before declining.",
+        "In 1980, Brazilians consumed 55 kilograms of sugar per person, the highest figure in the table, and this had risen to 62 by 2000. By 2020, however, it had dropped to 48. The United States followed a similar pattern, climbing from 48 to 60 and then falling back to 54.",
+        "The United Kingdom was the only country where consumption declined at every date, from 45 kilograms in 1980 to 38 in 2000 and just 31 in 2020, a fall of almost one third. Japan’s figures barely changed, remaining close to 22 kilograms.",
+        "Nigeria recorded by far the lowest consumption, but it was the only country to rise consistently, more than doubling from 6 to 13 kilograms, although this remained less than a third of the Brazilian figure."
+      ],
+      "type": "1",
+      "minutes": 20
+    },
+    {
+      "id": "t1-glass-process",
+      "task": "1",
+      "type": "1",
+      "nav": "Glass recycling",
+      "title": "How used glass bottles are recycled",
+      "kind": "Process diagram",
+      "words": 150,
+      "minutes": 20,
+      "source": "Original illustrative practice material. The simplified sequence is for IELTS practice; recycling facilities may use different equipment.",
+      "instruction": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "figure": {
+        "kind": "process",
+        "title": "The recycling of glass bottles",
+        "aria": "Six-stage glass bottle recycling process",
+        "data": {
+          "steps": [
+            {
+              "title": "Collect bottles",
+              "detail": "Used bottles are gathered for recycling."
+            },
+            {
+              "title": "Sort by colour",
+              "detail": "Bottles are separated into colour groups."
+            },
+            {
+              "title": "Wash and remove labels",
+              "detail": "The glass is cleaned before processing."
+            },
+            {
+              "title": "Crush into fragments",
+              "detail": "Clean bottles are broken into small pieces."
+            },
+            {
+              "title": "Melt and form",
+              "detail": "Fragments are melted and shaped into bottles."
+            },
+            {
+              "title": "Inspect and distribute",
+              "detail": "Finished bottles are checked and sent out."
+            }
+          ]
+        }
+      },
+      "quiz": {
+        "q": "Which overview best captures the process?",
+        "options": [
+          {
+            "text": "It is a six-stage sequence that turns collected bottles into inspected new bottles for distribution.",
+            "ok": true,
+            "why": "It describes the complete linear process without adding a stage or confusing the order."
+          },
+          {
+            "text": "It is a cycle in which new bottles are collected and then gradually become used bottles.",
+            "ok": false,
+            "why": "The diagram shows a forward sequence from used bottles to finished bottles, not a cycle."
+          },
+          {
+            "text": "The main feature is that bottles are sorted after they have been melted.",
+            "ok": false,
+            "why": "Sorting happens before washing, crushing and melting."
+          }
+        ]
+      },
+      "analysis": [
+        "The process is linear: collection is the starting point and distribution is the final stage.",
+        "Sorting, washing and crushing prepare the used glass before it is melted.",
+        "The final two stages create new bottles, then inspect and distribute them."
+      ],
+      "phrases": [
+        [
+          "The process begins with…",
+          "Introduce the first stage without describing every detail at once."
+        ],
+        [
+          "Once the bottles have been sorted…",
+          "Show the order between preparation stages."
+        ],
+        [
+          "The resulting glass fragments are then…",
+          "Link the crushed material to the next stage."
+        ],
+        [
+          "The sequence ends with…",
+          "Signal the final stage clearly."
+        ]
+      ],
+      "model": [
+        "The diagram illustrates a six-stage process in which used glass bottles are collected and turned into new bottles for distribution. Overall, it is a linear sequence: the glass is sorted and cleaned before being crushed, melted, reshaped and checked.",
+        "The process begins when used bottles are collected. They are then sorted according to colour, after which they are washed and have their labels removed. These preparation stages take place before the glass is broken into small fragments.",
+        "Next, the fragments are melted and formed into new bottles. In the final stage, the finished products are inspected and distributed. Thus, the sequence moves from gathering discarded containers to checking the replacement bottles before they are sent out. The diagram shows no separate stage for filling the bottles or collecting them again, so the process ends with distribution rather than forming a complete cycle. This final check is distinct from the earlier washing stage: washing prepares discarded glass, whereas inspection applies to the newly formed bottles. The stages therefore describe both preparation and completion."
+      ]
+    },
+    {
+      "id": "t1-lakeside-map",
+      "task": "1",
+      "type": "1",
+      "nav": "Lakeside park",
+      "title": "Changes to Lakeside Park between 2000 and 2025",
+      "kind": "Maps",
+      "words": 150,
+      "minutes": 20,
+      "source": "Original illustrative practice material. Lakeside Park is fictional and the two plans are designed for this exercise.",
+      "instruction": "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "figure": {
+        "kind": "map",
+        "title": "Lakeside Park in 2000 and 2025",
+        "aria": "North-up plans of fictional Lakeside Park in 2000 and 2025",
+        "legend": [
+          {
+            "name": "Water",
+            "color": "#a9d9e0"
+          },
+          {
+            "name": "Green space",
+            "color": "#c5d5b5"
+          },
+          {
+            "name": "Buildings",
+            "color": "#e5c39e"
+          },
+          {
+            "name": "Car park",
+            "color": "#e6e1d4"
+          }
+        ],
+        "data": {
+          "periods": [
+            {
+              "label": "2000",
+              "features": [
+                {
+                  "name": "Lake",
+                  "kind": "water",
+                  "x": 7,
+                  "y": 20,
+                  "width": 34,
+                  "height": 44
+                },
+                {
+                  "name": "Meadow",
+                  "kind": "green",
+                  "x": 46,
+                  "y": 17,
+                  "width": 45,
+                  "height": 22
+                },
+                {
+                  "name": "Woodland",
+                  "kind": "green",
+                  "x": 46,
+                  "y": 43,
+                  "width": 45,
+                  "height": 40
+                },
+                {
+                  "name": "Cafe",
+                  "kind": "building",
+                  "x": 8,
+                  "y": 69,
+                  "width": 18,
+                  "height": 13
+                },
+                {
+                  "name": "Car park",
+                  "kind": "open",
+                  "x": 29,
+                  "y": 69,
+                  "width": 16,
+                  "height": 13
+                }
+              ]
+            },
+            {
+              "label": "2025",
+              "features": [
+                {
+                  "name": "Lake",
+                  "kind": "water",
+                  "x": 7,
+                  "y": 20,
+                  "width": 34,
+                  "height": 44
+                },
+                {
+                  "name": "Meadow",
+                  "kind": "green",
+                  "x": 46,
+                  "y": 17,
+                  "width": 19,
+                  "height": 22
+                },
+                {
+                  "name": "Visitor centre",
+                  "kind": "building",
+                  "x": 68,
+                  "y": 17,
+                  "width": 23,
+                  "height": 14
+                },
+                {
+                  "name": "Woodland",
+                  "kind": "green",
+                  "x": 46,
+                  "y": 43,
+                  "width": 45,
+                  "height": 40
+                },
+                {
+                  "name": "Cafe",
+                  "kind": "building",
+                  "x": 8,
+                  "y": 69,
+                  "width": 18,
+                  "height": 13
+                },
+                {
+                  "name": "Car park",
+                  "kind": "open",
+                  "x": 29,
+                  "y": 69,
+                  "width": 16,
+                  "height": 26
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "quiz": {
+        "q": "Which overview best summarises the two plans?",
+        "options": [
+          {
+            "text": "The lake, woodland and cafe remain in place, while a visitor centre is added, the meadow is reduced and the car park expands.",
+            "ok": true,
+            "why": "It compares the main stable features with all three mapped changes."
+          },
+          {
+            "text": "The park is completely rebuilt, with the lake and woodland removed to make room for new facilities.",
+            "ok": false,
+            "why": "The lake and woodland stay in the same positions and retain the same size."
+          },
+          {
+            "text": "The main change is that the cafe is replaced by a visitor centre and the car park becomes smaller.",
+            "ok": false,
+            "why": "The cafe remains and the car park is larger in 2025; the visitor centre is a separate addition."
+          }
+        ]
+      },
+      "analysis": [
+        "The lake and woodland keep their positions and approximate size in both years.",
+        "The meadow in the north-east becomes smaller when a visitor centre is added beside it.",
+        "The cafe remains in the south-west, while the car park immediately to its east extends southwards.",
+        "Use the north arrows and shared frame to compare locations consistently."
+      ],
+      "phrases": [
+        [
+          "remained in the same position",
+          "Describe a feature that is unchanged."
+        ],
+        [
+          "was reduced in size",
+          "Compare the meadow across the two plans."
+        ],
+        [
+          "was added to the east of…",
+          "Locate a new facility precisely."
+        ],
+        [
+          "extended further south",
+          "Describe the larger car park without guessing why."
+        ]
+      ],
+      "model": [
+        "The maps compare the layout of the fictional Lakeside Park in 2000 and 2025. Overall, the lake, woodland and cafe remain unchanged, while the park gains a visitor centre, the meadow becomes smaller and the car park is enlarged.",
+        "In both years, the lake occupies the western side of the site, with the woodland across the lower eastern area. These two natural features retain the same position and approximate dimensions. The cafe also remains in the south-west corner, indicating that its location is stable throughout the period.",
+        "The most noticeable development occurs in the north-east. In 2000, this area is shown as a single large meadow. By 2025, the meadow has been reduced to a narrower section on its western side, and a visitor centre has been built beside it to the east. The two features together occupy much of the area previously assigned to the meadow.",
+        "There is also a change in the south of the park. The car park, located immediately east of the cafe, extends further south in 2025, although it remains in the same general part of the site. In summary, the plans show limited development around the park facilities, while the lake, woodland and cafe are retained. No change to the lake’s outline or woodland boundary is shown. The cafe also stays fixed, while the centre is the only new building and the car park the only enlarged facility."
+      ]
+    },
+    {
+      "id": "t2-wealth",
+      "task": "2",
+      "nav": "Wealth and duty",
+      "kind": "Discuss both views",
+      "words": 250,
+      "title": "Wealth and public duty",
+      "source": "Theme: Reading Passage 1, “The Davies Sisters”",
+      "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+      "question": "Some people believe that very wealthy individuals have a duty to give a substantial part of their fortune to public causes, such as museums, universities and medical research. Others believe that people should be free to spend the money they have earned as they choose. Discuss both views and give your own opinion.",
+      "quiz": {
+        "q": "Which sentence is the strongest thesis for this question?",
+        "options": [
+          {
+            "text": "Wealthy people should give money to charity.",
+            "ok": false,
+            "why": "It takes a side but ignores the second view, and it is too general to organise an essay."
+          },
+          {
+            "text": "Although great fortunes do carry an obligation to the public, that obligation is better encouraged through incentives than imposed by law.",
+            "ok": true,
+            "why": "It answers the question, acknowledges the opposing case and commits to a clear, arguable position."
+          },
+          {
+            "text": "This essay will discuss both sides of the argument and then give my opinion.",
+            "ok": false,
+            "why": "This announces the essay instead of making a claim. It contains no position at all."
+          }
+        ]
+      },
+      "plan": [
+        {
+          "h": "Underline what the question demands",
+          "d": "“Discuss both views” and “your own opinion” are both required. A response that only compares the views loses marks for task response."
+        },
+        {
+          "h": "Choose a position you can defend in one sentence",
+          "d": "For example: a duty exists, but incentives work better than compulsion. Everything you write should support that sentence."
+        },
+        {
+          "h": "Find one concrete example for each side",
+          "d": "The Davies sisters’ bequest of Impressionist paintings to National Museum Wales; and the risk that compulsory giving drives capital and donors elsewhere."
+        },
+        {
+          "h": "Set a word budget before you start",
+          "d": "Introduction 45 words, first view 85, second view 85, your own view 70, conclusion 40. That is roughly 325 words, comfortably above the minimum."
+        }
+      ],
+      "phrases": [
+        [
+          "a duty to contribute",
+          "Sharpens the first view without overstating it."
+        ],
+        [
+          "once legitimately earned, belongs to its owner",
+          "The core of the second view."
+        ],
+        [
+          "better encouraged than enforced",
+          "A compact way to hold a middle position."
+        ],
+        [
+          "a return on the infrastructure that made the fortune possible",
+          "A reason, not just an opinion."
+        ]
+      ],
+      "model": [
+        "Few questions divide opinion as sharply as what the very rich owe to the societies in which they made their money. While some insist that great fortunes carry a moral obligation to fund public goods, others argue that wealth, once legitimately earned, belongs to its owner. In my view, a duty does exist, but it is better encouraged than enforced.",
+        "Those who support obligatory giving point to the scale of the inequality involved. A single collector’s decision to leave a gallery a hundred paintings can transform the cultural life of a region for generations, as the Davies sisters’ bequest to National Museum Wales demonstrates. Where such generosity is absent, museums, universities and medical research must compete for scarce public money. On this view, philanthropy is not charity but a return on the infrastructure, education and legal protection that made the fortune possible.",
+        "Opponents reply that compulsion would undermine the very virtue it seeks to create. Money taken by the state is not given, and donors who feel taxed twice may move their capital elsewhere, reducing the investment and employment that benefit everyone. They also note that wealthy people already contribute through taxation, and that officials may spend private fortunes less carefully than the individuals who earned them.",
+        "I find the first argument more persuasive in principle but the second more persuasive about method. A legal obligation risks treating all wealth as suspect, yet a society that leaves everything to voluntarism will always underfund what has no commercial return. The most defensible position is therefore a generous tax incentive for donations to museums, libraries and research, combined with a modest inheritance tax, so that giving remains a choice but an unusually attractive one.",
+        "In conclusion, the wealthy do have a duty to contribute to public life, but it should be cultivated through incentives and example rather than compelled by law."
+      ],
+      "type": "2",
+      "minutes": 40
+    },
+    {
+      "id": "t2-quiet",
+      "task": "2",
+      "nav": "Quiet spaces",
+      "kind": "Agree or disagree",
+      "words": 250,
+      "title": "Protecting quiet in the city",
+      "source": "Theme: Reading Passage 2, “Why we need silence”",
+      "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+      "question": "Traffic, construction and aircraft noise are now a constant feature of city life. Some people argue that local authorities should set aside and protect designated quiet spaces, such as parks and libraries, where noise is strictly limited. To what extent do you agree or disagree?",
+      "quiz": {
+        "q": "Which sentence is the strongest thesis for this question?",
+        "options": [
+          {
+            "text": "Noise is a serious problem in modern cities.",
+            "ok": false,
+            "why": "True, but it is background. The examiner needs to know what you think the authorities should do."
+          },
+          {
+            "text": "I largely agree that authorities should protect quiet spaces, provided the rules are targeted and properly enforced.",
+            "ok": true,
+            "why": "It answers “to what extent”, gives a clear degree of agreement, and sets a condition that the essay can develop."
+          },
+          {
+            "text": "Some people agree and some people disagree about quiet spaces.",
+            "ok": false,
+            "why": "This repeats the question and commits to nothing."
+          }
+        ]
+      },
+      "plan": [
+        {
+          "h": "Decide the degree of agreement",
+          "d": "“To what extent” invites a qualified answer. Decide whether you agree fully, largely or only in part, and keep that degree visible throughout."
+        },
+        {
+          "h": "Build the case for quiet spaces",
+          "d": "Health effects of sustained noise, the fact that silence cannot be bought privately, and the value of shared quiet for people without gardens."
+        },
+        {
+          "h": "Build the case against over-regulation",
+          "d": "Construction and deliveries are essential; strict limits can push noise into poorer areas; enforcement is expensive."
+        },
+        {
+          "h": "Resolve rather than repeat",
+          "d": "Use the final body paragraph to say what a sensible policy looks like: specific places, specific hours, clear signage."
+        }
+      ],
+      "phrases": [
+        [
+          "designated quiet zones",
+          "Precise term for the policy being discussed."
+        ],
+        [
+          "a good that only collective action can provide",
+          "A reason with a public-goods flavour."
+        ],
+        [
+          "no one can soundproof a whole street",
+          "Concrete image that supports the argument."
+        ],
+        [
+          "scale rather than abandonment",
+          "Elegant way to narrow a claim."
+        ]
+      ],
+      "model": [
+        "City dwellers are rarely out of earshot of traffic, construction or aircraft, and a growing number of authorities are responding by designating quiet zones in parks, libraries and squares. I largely agree that this is a sensible use of local power, though the policy has limits.",
+        "The strongest argument for protected quiet is medical. Noise triggers a stress response that, sustained over years, is linked to sleep disturbance and cardiovascular disease, and the World Health Organization now treats excessive noise as a public health threat. Because silence cannot be bought by the individual, since no one can soundproof a whole street, it is precisely the kind of good that only collective action can provide. A library that enforces silence, or a park where amplified music is banned, gives everyone, including those who cannot afford a quiet garden, access to recovery.",
+        "Quiet zones also have economic and social value. Cafés, offices and schools near protected spaces become more pleasant, and a well-kept silent garden attracts visitors who would avoid a noisy one. Cities that have reduced traffic noise report that residents notice and value the difference.",
+        "Critics, however, warn of over-regulation. Construction and deliveries are essential, and strict limits can push noisy activity into poorer neighbourhoods or make city centres feel deserted. Enforcement is expensive, and a ban that is not enforced breeds contempt for other rules.",
+        "These objections suggest scale rather than abandonment. Quiet should be protected in specific, well-chosen places and at specific hours, such as night-time near hospitals, rather than imposed across whole districts.",
+        "In conclusion, I agree that local authorities should create and defend quiet spaces, provided the rules are targeted, well signposted and reviewed as the city changes."
+      ],
+      "type": "2",
+      "minutes": 40
+    },
+    {
+      "id": "t2-sugar",
+      "task": "2",
+      "nav": "Sugar tax",
+      "kind": "Discuss both views",
+      "words": 250,
+      "title": "Taxes or education on sugar",
+      "source": "Theme: Reading Passage 3, “The World of Sugar”",
+      "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+      "question": "Some governments have introduced taxes on sugary drinks in order to reduce consumption. Others argue that educating people about diet is a fairer and more effective way to improve public health. Discuss both views and give your own opinion.",
+      "quiz": {
+        "q": "Which sentence is the strongest thesis for this question?",
+        "options": [
+          {
+            "text": "Sugar is bad for you and should be taxed.",
+            "ok": false,
+            "why": "It ignores the second view and oversimplifies a question that asks you to weigh two policies."
+          },
+          {
+            "text": "A tax and public education are complementary: the tax creates the incentive, and education gives people the knowledge to act on it.",
+            "ok": true,
+            "why": "It answers the question, resolves the tension between the two views and gives the essay a clear structure."
+          },
+          {
+            "text": "In this essay I will look at the arguments for and against taxing sugar.",
+            "ok": false,
+            "why": "This is an announcement, not a position, and it leaves your own opinion out entirely."
+          }
+        ]
+      },
+      "plan": [
+        {
+          "h": "Separate the two policies clearly",
+          "d": "Price (a levy) and persuasion (education) are different instruments. Give each its own paragraph so the comparison is easy to follow."
+        },
+        {
+          "h": "Test each policy on fairness and on effectiveness",
+          "d": "A tax acts on everyone at once but is regressive; education respects choice but works slowly and unevenly."
+        },
+        {
+          "h": "Look for the strongest version of each view",
+          "d": "A levy can fund school meals and push manufacturers to reformulate, which is stronger than “it makes people pay”."
+        },
+        {
+          "h": "Use your opinion paragraph to combine them",
+          "d": "Explain how the revenue from a tax could pay for the education campaign, so the two policies stop competing."
+        }
+      ],
+      "phrases": [
+        [
+          "two obvious instruments: price and persuasion",
+          "Frames the whole essay in one line."
+        ],
+        [
+          "acts on everybody at once",
+          "Explains why a tax can be effective."
+        ],
+        [
+          "regressive",
+          "Precise adjective for a tax that hits poorer households harder."
+        ],
+        [
+          "complementary rather than rival",
+          "Signals a both/and conclusion."
+        ]
+      ],
+      "model": [
+        "Governments alarmed by rising obesity have two obvious instruments: price and persuasion. Taxing sugary drinks raises their cost, while public education campaigns attempt to change what people want. Both approaches have merit, but they work best together.",
+        "A tax has the advantage of acting on everybody at once, including those who ignore health advice. Evidence from several countries suggests that a levy of around 20 per cent reduces purchases, particularly among younger and lower-income consumers, and it also pushes manufacturers to reformulate their products with less sugar. The revenue raised can fund school meals or subsidised fruit, so the policy can pay for the education it is often contrasted with.",
+        "Opponents argue that such taxes are regressive. A flat levy takes a larger share of a poor household’s income than a rich one’s, and critics add that it punishes a single ingredient while processed foods, alcohol and inactivity do equal damage. They also question whether consumers simply switch to other cheap sources of sugar, leaving diets unchanged and the treasury richer.",
+        "Education addresses this weakness, since it can explain portion size, label reading and cooking rather than merely making one product dearer. Its effects, however, are slow and uneven: campaigns tend to be absorbed by the already health-conscious, and the food industry spends far more on advertising than governments do on advice.",
+        "My own view is that the two are complementary rather than rival. A modest tax creates an immediate incentive and signals that the state takes the issue seriously, while education gives people the knowledge to act on that signal. Neither is sufficient alone: a tax without advice feels punitive, and advice without a price signal is easily ignored.",
+        "In conclusion, although a sugar tax is a blunt instrument, it is a fair and effective one when its revenue funds the education that makes lasting dietary change possible."
+      ],
+      "type": "2",
+      "minutes": 40
+    },
+    {
+      "id": "t2-remote-work",
+      "task": "2",
+      "type": "2",
+      "nav": "Remote work",
+      "title": "Remote work for part of the week",
+      "kind": "Advantages outweigh disadvantages",
+      "words": 250,
+      "minutes": 40,
+      "source": "Original illustrative practice prompt.",
+      "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+      "question": "Some employers allow staff to work remotely for part of the week. Do the advantages of this arrangement outweigh the disadvantages?",
+      "quiz": {
+        "q": "Which thesis makes the comparative judgement this prompt requires?",
+        "options": [
+          {
+            "text": "Remote work has both advantages and disadvantages, and employers should consider them carefully.",
+            "ok": false,
+            "why": "It lists the task but never says which side is stronger."
+          },
+          {
+            "text": "For most roles that can be done online, the gains in flexibility and commuting time outweigh the coordination costs, provided teams meet regularly.",
+            "ok": true,
+            "why": "It weighs the two sides, gives a clear answer and sets a condition the essay can explain."
+          },
+          {
+            "text": "Some employees enjoy working at home, whereas others prefer the office.",
+            "ok": false,
+            "why": "It reports different preferences without judging whether the arrangement's benefits outweigh its costs."
+          }
+        ]
+      },
+      "plan": [
+        {
+          "h": "Make the comparison explicit",
+          "d": "Decide whether the advantages outweigh the disadvantages and state that judgement in the introduction and conclusion."
+        },
+        {
+          "h": "Develop the strongest benefits",
+          "d": "Use saved commuting time, flexibility for focused work and a wider hiring pool; explain who benefits and how."
+        },
+        {
+          "h": "Acknowledge real costs",
+          "d": "Discuss weaker informal communication, isolation and unequal home working conditions rather than dismissing them."
+        },
+        {
+          "h": "Weigh the conditions",
+          "d": "Explain why a hybrid schedule with shared office days and clear expectations can preserve benefits while reducing coordination problems."
+        }
+      ],
+      "phrases": [
+        [
+          "the balance of benefits and costs",
+          "Frame the required comparison."
+        ],
+        [
+          "time otherwise spent commuting",
+          "Describe a concrete benefit without inventing figures."
+        ],
+        [
+          "informal exchange of ideas",
+          "Name a collaboration cost precisely."
+        ],
+        [
+          "provided that teams agree on shared days",
+          "State a practical condition that supports your position."
+        ]
+      ],
+      "model": [
+        "Allowing employees to work remotely for part of the week has become a practical option for many office-based roles. Although this arrangement can make collaboration less spontaneous, I believe its advantages generally outweigh its disadvantages when employers organise communication deliberately.",
+        "The clearest benefit is the time and energy employees save by avoiding a daily commute. That time can be used for family responsibilities, rest or concentrated work, which may improve both wellbeing and the quality of a task. Remote days can also make employment accessible to people who live far from a workplace or need a more flexible routine. For employers, recruiting beyond the immediate area may widen the range of skills available to a team.",
+        "There are, however, meaningful drawbacks. A quick conversation that would happen naturally in an office may require a scheduled call online, and new staff can find it harder to learn by observing experienced colleagues. Working at home can also feel isolating, while not every employee has a quiet room or reliable equipment. These disadvantages are strongest when remote work is treated as a substitute for management rather than as a different way to organise it.",
+        "A hybrid arrangement can address much of this difficulty. Teams can choose shared office days for planning, mentoring and decisions that benefit from discussion, while reserving remote days for independent tasks. Clear response times and regular check-ins also prevent colleagues from assuming that an online worker is always available. Such measures require planning, but they do not remove the flexibility that makes remote work valuable.",
+        "Overall, the gains in flexibility, focused time and access to employment are greater than the coordination costs for jobs that can be performed remotely. This judgement depends on employers creating fair home-working conditions and bringing teams together when collaboration matters."
+      ]
+    },
+    {
+      "id": "t2-food-waste",
+      "task": "2",
+      "type": "2",
+      "nav": "Food waste",
+      "title": "Reducing edible household food waste",
+      "kind": "Causes and solutions",
+      "words": 250,
+      "minutes": 40,
+      "source": "Original illustrative practice prompt.",
+      "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+      "question": "Many households throw away edible food. What are the main causes of this problem, and what measures could households and governments take to reduce it?",
+      "quiz": {
+        "q": "Which outline fully answers the question?",
+        "options": [
+          {
+            "text": "Explain overbuying and date-label confusion, then give actions for households and governments.",
+            "ok": true,
+            "why": "It covers causes and assigns measures to both groups named in the prompt."
+          },
+          {
+            "text": "Describe why restaurants discard food and recommend that shops lower prices.",
+            "ok": false,
+            "why": "The prompt is about household waste and asks for household and government measures."
+          },
+          {
+            "text": "Argue that food waste is harmful and list several environmental consequences.",
+            "ok": false,
+            "why": "It explains effects but does not identify the main causes or propose the requested measures."
+          }
+        ]
+      },
+      "plan": [
+        {
+          "h": "Identify household causes",
+          "d": "Explain how unplanned shopping, oversized packages, poor storage and confusing date labels can leave edible food unused."
+        },
+        {
+          "h": "Give practical household measures",
+          "d": "Suggest meal planning, checking cupboards, suitable portions, freezing and using leftovers safely."
+        },
+        {
+          "h": "Set out government measures",
+          "d": "Propose clearer date-label guidance, public information and support for safe redistribution where food-safety rules permit."
+        },
+        {
+          "h": "Connect measures to causes",
+          "d": "Show how each action reduces a specific source of waste, then conclude that shared responsibility is needed."
+        }
+      ],
+      "phrases": [
+        [
+          "buy more than can be used",
+          "Describe over-purchasing in direct terms."
+        ],
+        [
+          "confusion between date labels",
+          "Name a cause that information can address."
+        ],
+        [
+          "plan meals around food already at home",
+          "Offer a practical household response."
+        ],
+        [
+          "make safe redistribution easier",
+          "Describe a public measure while retaining the food-safety condition."
+        ]
+      ],
+      "model": [
+        "Edible food is often discarded because household routines make it easy to buy more than can be used and difficult to keep track of what is already available. This problem can be reduced through careful planning at home and clearer public guidance, supported by systems that allow safe surplus food to be shared.",
+        "One common cause is unplanned shopping. People may buy ingredients for several possible meals, then change their plans or forget what is in the refrigerator. Large packages can create the same difficulty for small households. Confusion about date labels is another source of waste: some consumers treat every printed date as a sign that food must immediately be thrown away, even when the label refers to quality rather than safety. Poor storage and oversized portions can add to the problem.",
+        "Households can respond by checking cupboards before shopping and planning a small number of meals around what needs to be used first. Buying quantities that match the number of people at home, storing products as instructed and freezing suitable items can extend their useful life. Leftovers can be included in a later meal, provided they have been handled safely. These habits make waste visible before food is forgotten.",
+        "Governments can help by making date-label guidance clearer and providing practical public information on storage and portion planning. They can also support local charities and retailers in redistributing surplus food, with appropriate food-safety checks and transport arrangements. Such programmes give safe food another use instead of sending it directly to disposal. Public procurement rules and community education can reinforce these efforts.",
+        "In conclusion, overbuying, poor planning and uncertainty about labels are important causes of edible household waste. Individual routines can prevent much of it, while governments can improve the information and local systems that make prevention and safe redistribution easier."
+      ]
+    },
+    {
+      "id": "x1-gallery",
+      "task": "3",
+      "type": "1",
+      "level": 1,
+      "nav": "Two charts",
+      "kind": "Bar chart and pie chart",
+      "words": 150,
+      "title": "Gallery visits and income",
+      "source": "Theme: Reading Passage 1, public collections and their visitors",
+      "harder": "there are two visuals, so a single overview has to cover both, and the pie has only four slices to share with a chart of eight figures.",
+      "instruction": "The charts below show the number of visits made to the Riverside Gallery by four age groups in 2015 and 2025, and the sources of the gallery’s income in 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "figures": [
+        {
+          "kind": "bar",
+          "title": "Visits by age group, in thousands",
+          "aria": "Bar chart: visits to the Riverside Gallery by four age groups in 2015 and 2025.",
+          "legend": [
+            {
+              "name": "2015",
+              "color": "var(--graphite)"
+            },
+            {
+              "name": "2025",
+              "color": "var(--teal)"
+            }
+          ],
+          "data": {
+            "max": 100,
+            "step": 20,
+            "yLabel": "Visits (thousands)",
+            "xLabel": "Age group",
+            "series": [
+              {
+                "color": "var(--graphite)"
+              },
+              {
+                "color": "var(--teal)"
+              }
+            ],
+            "groups": [
+              {
+                "label": "Under 25",
+                "values": [
+                  42,
+                  68
+                ]
+              },
+              {
+                "label": "25–44",
+                "values": [
+                  96,
+                  88
+                ]
+              },
+              {
+                "label": "45–64",
+                "values": [
+                  74,
+                  61
+                ]
+              },
+              {
+                "label": "65+",
+                "values": [
+                  38,
+                  52
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "kind": "pie",
+          "title": "Share of income by source, 2025",
+          "aria": "Pie chart: gallery income in 2025, public funding 46 per cent, ticket sales 27 per cent, shop and cafe 17 per cent, donations 10 per cent.",
+          "legend": [
+            {
+              "name": "Public funding 46%",
+              "color": "var(--graphite)"
+            },
+            {
+              "name": "Ticket sales 27%",
+              "color": "var(--teal)"
+            },
+            {
+              "name": "Shop and café 17%",
+              "color": "var(--gold)"
+            },
+            {
+              "name": "Donations 10%",
+              "color": "var(--brick)"
+            }
+          ],
+          "data": [
+            {
+              "name": "Public funding",
+              "value": 46,
+              "color": "var(--graphite)"
+            },
+            {
+              "name": "Ticket sales",
+              "value": 27,
+              "color": "var(--teal)"
+            },
+            {
+              "name": "Shop and café",
+              "value": 17,
+              "color": "var(--gold)"
+            },
+            {
+              "name": "Donations",
+              "value": 10,
+              "color": "var(--brick)"
+            }
+          ]
+        }
+      ],
+      "figureCaption": "Illustrative practice data. Visits in thousands; income shares for 2025.",
+      "quiz": {
+        "q": "Which overview covers both visuals?",
+        "options": [
+          {
+            "text": "Visits rose only slightly overall, but the audience shifted towards the youngest and oldest groups, while income still depended mainly on public money.",
+            "ok": true,
+            "why": "It summarises both charts in one sentence and identifies the two real patterns rather than the totals."
+          },
+          {
+            "text": "The gallery received 269,000 visits in 2025.",
+            "ok": false,
+            "why": "Accurate, but it is one figure from one chart and says nothing about the shift in audience or about income."
+          },
+          {
+            "text": "Ticket sales were the most important source of income.",
+            "ok": false,
+            "why": "They were not: public funding provided 46 per cent against 27 per cent from tickets. This also ignores the first chart."
+          }
+        ]
+      },
+      "analysis": [
+        "Two charts still need one overview. Write a single summary sentence that covers both, then take them in turn.",
+        "Total visits rose only from 250,000 to 269,000, so the story is the change in composition, not growth.",
+        "Visits by under-25s rose 62 per cent, from 42,000 to 68,000, and overtook the 45–64 group.",
+        "The 25–44 and 45–64 groups both fell, by 8,000 and 13,000 respectively, so the audience grew younger and older at the same time.",
+        "Public funding (46 per cent) is almost as large as the other three sources combined, which is the one income detail worth developing.",
+        "Do not list all four slices. Name the largest, group the rest, and stop."
+      ],
+      "phrases": [
+        [
+          "the composition of the audience changed",
+          "Describes a shift in shares rather than in totals."
+        ],
+        [
+          "overtook the 25–44 group",
+          "Useful when two categories cross."
+        ],
+        [
+          "public funding accounted for 46 per cent",
+          "For a share of a total."
+        ],
+        [
+          "nearly as much as all other sources combined",
+          "Summarises three slices without listing them."
+        ]
+      ],
+      "model": [
+        "The bar chart shows the number of visits, in thousands, made to the Riverside Gallery by four age groups in 2015 and 2025, while the pie chart shows how the gallery’s income was divided between sources in 2025.",
+        "Overall, total visits rose only slightly over the decade, but the composition of the audience changed markedly, with visits by the under-25s rising sharply and those by the two middle groups falling. Income, meanwhile, remained dependent on public money rather than on visitors.",
+        "In 2015 the 25–44 group made by far the most visits, at 96,000, followed by the 45–64 group with 74,000. By 2025 the first had fallen to 88,000 and the second to 61,000. Visits by people under 25, in contrast, climbed from 42,000 to 68,000, and those by the over-65s rose more modestly, from 38,000 to 52,000, so that total visits edged up from 250,000 to 269,000.",
+        "Public funding accounted for 46 per cent of income in 2025, nearly as much as all the other sources combined. Ticket sales contributed 27 per cent, the shop and café 17 per cent, and donations the remaining 10 per cent."
+      ],
+      "minutes": 20
+    },
+    {
+      "id": "x2-complaints",
+      "task": "3",
+      "type": "1",
+      "level": 2,
+      "nav": "Six sources",
+      "kind": "Table",
+      "words": 150,
+      "title": "Noise complaints by source",
+      "source": "Theme: Reading Passage 2, city noise",
+      "harder": "there are eighteen figures and no ranking is given, so you must group the rows by direction of travel and decide which two or three deserve detail.",
+      "instruction": "The table below shows the number of noise complaints received by a city authority from six sources in 2010, 2018 and 2026. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+      "figure": {
+        "kind": "table",
+        "title": "Noise complaints received, by source",
+        "data": {
+          "caption": "Noise complaints received, by source",
+          "head": "Source",
+          "years": [
+            2010,
+            2018,
+            2026
+          ],
+          "rows": [
+            [
+              "Road traffic",
+              8420,
+              7150,
+              5980
+            ],
+            [
+              "Construction",
+              3260,
+              4910,
+              5440
+            ],
+            [
+              "Neighbours",
+              2450,
+              2880,
+              3650
+            ],
+            [
+              "Aircraft",
+              1870,
+              2240,
+              2010
+            ],
+            [
+              "Licensed premises",
+              1130,
+              1460,
+              1120
+            ],
+            [
+              "Industry",
+              640,
+              520,
+              410
+            ]
+          ]
+        },
+        "caption": "Illustrative practice data. Number of complaints recorded."
+      },
+      "quiz": {
+        "q": "Which sentence is the best overview of the table?",
+        "options": [
+          {
+            "text": "Complaints peaked in 2018, and road traffic remained the largest single source although construction and complaints about neighbours grew quickly.",
+            "ok": true,
+            "why": "It gives the overall shape of the total and the two structural changes, which is the right level of detail for an overview."
+          },
+          {
+            "text": "Road traffic complaints fell from 8,420 to 5,980.",
+            "ok": false,
+            "why": "True, but it describes one row. The overview has to account for all six sources."
+          },
+          {
+            "text": "The council should spend more on noise reduction.",
+            "ok": false,
+            "why": "This is a recommendation, not a summary of what the table shows."
+          }
+        ]
+      },
+      "analysis": [
+        "Eighteen figures is more than enough to lose control of. Sort the rows into three groups: rising, falling, and peaking in 2018.",
+        "Rising: construction (3,260 to 5,440) and neighbours (2,450 to 3,650).",
+        "Falling at every date: road traffic and industry, which are the only two to do so.",
+        "Peaking in 2018 then easing: aircraft and licensed premises, and the total itself (17,770, 19,160, 18,610).",
+        "The most interesting comparison is the narrowing gap between road traffic and construction, from 5,160 complaints to 540.",
+        "Calculate a percentage only for the row you are developing: construction rose by about two thirds. A table of arithmetic is not an answer."
+      ],
+      "phrases": [
+        [
+          "the balance of sources shifted",
+          "For a change in shares, not just totals."
+        ],
+        [
+          "rose at every date",
+          "Compact for a consistent trend across three columns."
+        ],
+        [
+          "peaked in 2018 before easing",
+          "For a rise and fall in one sentence."
+        ],
+        [
+          "the gap narrowed from ... to ...",
+          "Shows change in a difference, which examiners reward."
+        ]
+      ],
+      "model": [
+        "The table shows how many noise complaints a city authority received from six sources in 2010, 2018 and 2026.",
+        "Overall, complaints peaked in 2018 and then declined slightly, and the balance of sources shifted: road traffic, easily the largest category at the start, fell steadily, while complaints about construction and neighbours grew.",
+        "Road traffic accounted for 8,420 complaints in 2010, nearly half the total, and although the number dropped at each date to 5,980 in 2026, it remained the single largest source. Construction, by contrast, rose from 3,260 to 5,440, an increase of about two thirds, so that the gap between the two narrowed from over 5,000 complaints to just 540.",
+        "Complaints about neighbours also grew consistently, from 2,450 to 3,650. Aircraft and licensed premises followed a similar pattern, rising until 2018 before falling back to roughly their 2010 levels, while industry was the only other source to decline at every date, ending at 410.",
+        "The overall total rose from 17,770 in 2010 to 19,160 in 2018, then eased to 18,610."
+      ],
+      "minutes": 20
+    },
+    {
+      "id": "x3-culture",
+      "task": "3",
+      "type": "2",
+      "level": 3,
+      "nav": "Culture funding",
+      "kind": "Two-part question",
+      "words": 250,
+      "title": "Public funding for culture",
+      "source": "Theme: Reading Passage 1, philanthropy and public collections",
+      "harder": "there are two questions rather than one, and each needs its own share of the essay.",
+      "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+      "question": "Public museums and galleries in many countries rely on government funding. Why is public funding important for cultural institutions, and what could governments do to make them less dependent on it?",
+      "quiz": {
+        "q": "Which plan answers both parts of this question?",
+        "options": [
+          {
+            "text": "Explain two or three reasons public funding matters, then suggest several ways institutions could reduce their dependence, and judge how far those measures can replace it.",
+            "ok": true,
+            "why": "It gives each question its own section and ends by evaluating the solutions, which is what “how far” requires."
+          },
+          {
+            "text": "Discuss the benefits of art for society and give my opinion on government spending.",
+            "ok": false,
+            "why": "This answers the first question only. The second part, about reducing dependence, is never addressed."
+          },
+          {
+            "text": "Describe how museums in my country are funded.",
+            "ok": false,
+            "why": "Description is not analysis: there are no reasons and no proposed measures."
+          }
+        ]
+      },
+      "plan": [
+        {
+          "h": "Split the question before you plan",
+          "d": "Write “why” at the top of your page and “how” at the bottom. Roughly 60 per cent of the essay goes to the reasons, 40 per cent to the measures."
+        },
+        {
+          "h": "Make the reasons distinct",
+          "d": "Culture is a public good the market underprovides; free entry widens access; national collections carry identity and cannot be replaced if sold. Three different arguments beat one repeated three times."
+        },
+        {
+          "h": "Make the measures concrete",
+          "d": "Endowments, corporate sponsorship, shops and venue hire, university partnerships, touring exhibitions. Say what each would actually do for the budget."
+        },
+        {
+          "h": "Reserve space for the limits",
+          "d": "Sponsorship follows prestige and commercial income falls in recessions, precisely when public money matters most. That paragraph is what turns a list into an argument."
+        }
+      ],
+      "phrases": [
+        [
+          "a public good that the market underprovides",
+          "Precise economic framing of the first reason."
+        ],
+        [
+          "immune to annual budget negotiations",
+          "Shows why an endowment is different from a grant."
+        ],
+        [
+          "None of this is a complete substitute.",
+          "Introduces the limits of your own solutions."
+        ],
+        [
+          "so that a single budget decision cannot close their doors",
+          "Concrete consequence rather than a vague benefit."
+        ]
+      ],
+      "model": [
+        "Public museums and galleries in many countries depend on state funding, and it is worth asking both why that support exists and how institutions might rely on it less.",
+        "Public money matters first because culture is a public good that the market underprovides. A museum’s collection can be visited by anyone for a modest ticket, and its research, conservation and education work produces benefits that no single visitor pays for. Left to ticket sales alone, institutions would have to favour blockbuster exhibitions over the care of inaccessible objects. Second, free or cheap entry widens access: a family that cannot afford a theme park can still spend a Sunday in a gallery, which is precisely the kind of equality of opportunity that governments exist to protect. Third, national collections are part of a country’s identity and are not easily replaced if a private owner decides to sell.",
+        "Reducing dependence, however, need not mean abandoning those aims. Museums can build endowments and seek corporate sponsorship, as many American institutions do, so that a share of their income is immune to annual budget negotiations. They can commercialise carefully: shops, cafés and venue hire already contribute meaningfully, and digital memberships extend the audience beyond the city. Partnerships with universities can fund research posts, while touring exhibitions allow one collection to earn in several places.",
+        "None of this is a complete substitute. Sponsorship tends to follow prestige, and commercial income falls in recessions, exactly when public support matters most.",
+        "In conclusion, public funding remains essential because it pays for what the market will not, but institutions should combine it with endowments, partnerships and well-chosen commercial activity so that a single budget decision cannot close their doors."
+      ],
+      "minutes": 40
+    },
+    {
+      "id": "x4-price",
+      "task": "3",
+      "type": "2",
+      "level": 4,
+      "nav": "Art and price",
+      "kind": "Agree or disagree",
+      "words": 250,
+      "title": "Art, cultural value and price",
+      "source": "Theme: Reading Passage 1, the art market and public galleries",
+      "harder": "the terms in the question are abstract, so the essay has to define what cultural value and price mean before it can judge between them.",
+      "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+      "question": "Some people argue that a work of art should be judged by its cultural value rather than by its price. To what extent do you agree or disagree?",
+      "quiz": {
+        "q": "Which thesis handles the abstraction best?",
+        "options": [
+          {
+            "text": "I agree that cultural value should come first, but only if we accept that a commercial market is one of the conditions that makes such value possible.",
+            "ok": true,
+            "why": "It answers “to what extent” with a qualified degree of agreement and turns the abstraction into a claim that can be argued."
+          },
+          {
+            "text": "Art is important and should not be about money.",
+            "ok": false,
+            "why": "A slogan rather than a position. It gives no degree of agreement and nothing for the body paragraphs to develop."
+          },
+          {
+            "text": "This essay will discuss whether art should be judged by cultural value or by price.",
+            "ok": false,
+            "why": "An announcement. The reader still does not know what you think."
+          }
+        ]
+      },
+      "plan": [
+        {
+          "h": "Define the two terms in the introduction",
+          "d": "Cultural value: what a work does for how a society sees itself, teaches and remembers. Price: what a buyer will pay at a particular moment. Naming the difference prevents a vague essay."
+        },
+        {
+          "h": "Take a degree, not a slogan",
+          "d": "“Primarily, but not exclusively” is a defensible position. Total rejection of price is hard to argue, because markets fund the work."
+        },
+        {
+          "h": "Use one example each way",
+          "d": "Van Gogh sold almost nothing in his lifetime, yet the Davies sisters bought Impressionists that British institutions were ignoring. Counter-example: a market that rewards living artists lets them keep working."
+        },
+        {
+          "h": "Draw a consequence for institutions",
+          "d": "In the final paragraph, say what follows: acquire, display and teach on cultural grounds, using price as one consideration among several."
+        }
+      ],
+      "phrases": [
+        [
+          "judged primarily by",
+          "Keeps the degree of agreement precise."
+        ],
+        [
+          "reflects scarcity and fashion as much as significance",
+          "A reason, not an assertion."
+        ],
+        [
+          "the two measures answer different questions",
+          "Neat resolution of a false opposition."
+        ],
+        [
+          "a healthy market is one of the conditions that allows such value to be created",
+          "Concedes the opponent’s best point without surrendering."
+        ]
+      ],
+      "model": [
+        "Art markets produce spectacular prices, and it is tempting to treat those prices as a measure of worth. I agree only in part: cultural value should take precedence, but price and cultural value are not always in opposition.",
+        "The case for cultural value is strong. A painting can reshape how a generation sees itself, and that effect is not captured by what a collector pays for it. Van Gogh sold almost nothing in his lifetime, and the Davies sisters bought Impressionist works at a time when British institutions were ignoring them; judged by price at the moment of purchase, both examples would look like failures. Cultural value is also communal, since a museum’s holding belongs to everyone who visits, while a price belongs to whoever can afford the auction.",
+        "Yet dismissing price entirely is unwise. Prices fund the studios, conservators and publishers that make art possible, and a market that rewards living artists allows them to keep working. Price can even be evidence of cultural value: the fact that millions pay to see a touring exhibition says something about its hold on the public. The difficulty is that price reflects scarcity and fashion as much as significance.",
+        "The sensible position is therefore hierarchical rather than exclusive. Public institutions should decide what to acquire, display and teach on cultural grounds, using price as one consideration among several, and they should be honest that the two measures answer different questions.",
+        "In conclusion, I agree that a work of art should be judged primarily by its cultural value, provided we recognise that a healthy market is one of the conditions that allows such value to be created."
+      ],
+      "minutes": 40
+    },
+    {
+      "id": "x5-silence",
+      "task": "3",
+      "type": "2",
+      "level": 5,
+      "nav": "Silence by law",
+      "kind": "Agree, then design",
+      "words": 250,
+      "title": "Silence as a public resource",
+      "source": "Theme: Reading Passage 2, silence and public health",
+      "harder": "you must take a position and then specify how such a law would work, while answering the objection that regulation is expensive and uneven.",
+      "instruction": "Write about the following topic. Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+      "question": "As cities grow louder, some argue that silence should be treated as a public resource, like clean air, and protected by law. To what extent do you agree or disagree, and what would such protection require in practice?",
+      "quiz": {
+        "q": "Which thesis answers both parts of this question?",
+        "options": [
+          {
+            "text": "Silence should be protected as a public resource, provided the law sets measurable limits, names specific places and hours, and is enforced consistently.",
+            "ok": true,
+            "why": "It states the position and immediately answers the second question, so the essay has somewhere to go."
+          },
+          {
+            "text": "Noise is harmful and cities should be quieter.",
+            "ok": false,
+            "why": "It gestures at agreement but says nothing about what legal protection would involve."
+          },
+          {
+            "text": "I completely agree that silence is a public resource.",
+            "ok": false,
+            "why": "It answers the first question and ignores the second, which carries half the marks here."
+          }
+        ]
+      },
+      "plan": [
+        {
+          "h": "Answer the two parts in order",
+          "d": "Agreement first, then design. Roughly 60 per cent on principle, 40 per cent on mechanism, and one concluding sentence that ties them together."
+        },
+        {
+          "h": "Borrow a policy structure",
+          "d": "Principle, mechanism, objection, response. It stops the essay becoming a list of complaints about noise."
+        },
+        {
+          "h": "Be specific about mechanism",
+          "d": "Decibel limits with noise mapping, designated zones and hours, fines for modified exhausts, quieter road surfacing, insulation standards in building codes."
+        },
+        {
+          "h": "Answer the cost objection",
+          "d": "Regulation that cannot be enforced breeds contempt, and quiet districts can become exclusive. Show why those risks argue for careful design rather than no law."
+        }
+      ],
+      "phrases": [
+        [
+          "non-excludable",
+          "Precise term for a benefit no one can be kept from."
+        ],
+        [
+          "the tragedy of the commons",
+          "Explains why voluntary restraint fails."
+        ],
+        [
+          "measurable standards, with mapping of where they are breached",
+          "Concrete enough to sound like policy."
+        ],
+        [
+          "need only price and schedule them, not ban them",
+          "Concession that keeps the position realistic."
+        ]
+      ],
+      "model": [
+        "Clean air is regulated because no individual can clean a city’s atmosphere alone, and the same argument now applies to quiet. I agree that silence should be treated as a public resource and protected in law, though the protection must be designed carefully to be workable.",
+        "The case rests on two features that silence shares with clean air. It is non-excludable: if a street is quiet, everyone on it benefits. And it is vulnerable to the tragedy of the commons, since each additional vehicle, leaf blower or outdoor speaker imposes a small cost on thousands of people. Market solutions cannot help here, because quiet cannot be bought by the individual. Public health supplies the second reason: the World Health Organization treats chronic noise as a threat, and regulation is the only instrument that acts on the source rather than on the sufferer.",
+        "In practice, legal protection would require three things. First, measurable standards, such as night-time limits in decibels, with mapping of where they are breached. Second, designated quiet zones with clear signage and reasonable hours, so that expectations are obvious. Third, enforcement that is predictable rather than selective: fines for modified exhausts and amplified music, quieter road surfacing and building codes that require insulation. None of this need ban construction or nightlife; it need only price and schedule them.",
+        "The obvious objection is cost and bureaucracy, and it is real. Regulation that cannot be enforced breeds contempt, and quiet districts can become exclusive.",
+        "In conclusion, silence deserves the status of a public resource, provided the law sets measurable limits, designates specific places and hours, and is enforced consistently enough to be credible."
+      ],
+      "minutes": 40
+    }
+  ]
+}
